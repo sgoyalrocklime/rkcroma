@@ -2,10 +2,10 @@
 get_header();
 ?>
 
-        <main id="main" class="main" role="main">
-            <section class="page-layouts">
+    <main id="main" class="main" role="main">
+        <section class="page-layouts">
 
-                <?php if(get_theme_mod('section1_visibility')){ ?>
+            <?php if(get_theme_mod('section1_visibility')){ ?>
                 <div class="layout layout--hero-slider hero-slider">
                     <div class="hero-slider__projects-popup-controls">
                         <span class="title">Highlights</span>
@@ -15,59 +15,60 @@ get_header();
                         <span class="dot"></span>
                     </div>
                     <div class="slick hero-slider__carousel">
-                        <div class="hero-slider__slide slick-slide">
-                            <div class="hero-slider__slide__bg" style="background-image: url('<?php echo site_url(); ?>/wp-content/uploads/2016/05/main-amex.jpg');"></div>
+                        <?php
+                        $args = array(
+                            "posts_per_page" => -1,
+                            "order"          => "ASC",
+                            "post_type"    => "home-page-slider",
+                        );
+
+                        $slides = new WP_Query($args);
+
+                        $slides = $slides->get_posts();
+
+                        if(count($slides)):
+
+                            foreach ($slides as $slide){
+                                $slideDescription = $slide->post_content;
+                                $slideID = $slide->ID;
+                                $slideExcerpt= $slide->post_excerpt;
+                                $slideImage = get_the_post_thumbnail_url($slideID);
+
+                                echo '<div class="hero-slider__slide slick-slide"><div class="hero-slider__slide__bg" style="background-image: url('.$slideImage.');"></div>
                             <a href="#" class="hero-slider__arrow"></a>
                             <div class="container clearfix">
                                 <article class="hero-slider__slide__content hentry clearfix">
-                                    <div class="animated-title"><div class="animated-title__line animated-title__line--1"><h2 class="animated-title__tag">Delivering<br />
-                                                Confidence On<br /></h2></div><div class="animated-title__line animated-title__line--2"><h2 class="animated-title__tag">
-                                                Every Project<br /></h2></div></div>              						<div class="hero-slider__slide__content__controls">
-                                        <a href="#" class="prev"></a>
-                                        <a href="#" class="next"></a>
-                                    </div>
-                                    <a href="<?php echo site_url(); ?>/about" class="hero-slider__slide__content__link">Find out more</a>
+                                    '.$slideDescription.$slideExcerpt.'
                                 </article>
                             </div>
-                        </div>
-                        <div class="hero-slider__slide slick-slide">
-                            <div class="hero-slider__slide__bg" style="background-image: url('<?php echo site_url(); ?>/wp-content/uploads/2017/01/unnamed.jpg');"></div>
-                            <a href="#" class="hero-slider__arrow"></a>
-                            <div class="container clearfix">
-                                <article class="hero-slider__slide__content hentry clearfix">
-                                    <div class="animated-title"><div class="animated-title__line animated-title__line--1"><h2 class="animated-title__tag">Confidence From <br />
-                                                The Outset<br /></h2></div></div>              						<div class="hero-slider__slide__content__controls">
-                                        <a href="#" class="prev"></a>
-                                        <a href="#" class="next"></a>
-                                    </div>
-                                    <a href="#" class="hero-slider__slide__content__link">Find out more</a>
-                                </article>
-                            </div>
-                        </div>
+                        </div>';
+                            }
+                        endif;
+                        ?>
                     </div>
                 </div>
-                <?php } ?>
+            <?php } ?>
 
-                <div class="controls-switch"></div>
+            <div class="controls-switch"></div>
 
-                <div style="background-color: <?php echo get_theme_mod('section2_color'); ?> !important;" class="layout layout--content-animating-box content-animating-box clearfix wow fadeInDownFixed" data-wow-delay="0.3s">
-                    <?php if(get_theme_mod('section2_visibility')){ ?>
-                        <div class="content-animating-box__row row-1 clearfix">
+            <div style="background-color: <?php echo get_theme_mod('section2_color'); ?> !important;" class="layout layout--content-animating-box content-animating-box clearfix wow fadeInDownFixed" data-wow-delay="0.3s">
+                <?php if(get_theme_mod('section2_visibility')){ ?>
+                    <div class="content-animating-box__row row-1 clearfix">
 
-                            <div class="content-animating-box__split--smaller content-animating-box__split--image mh-r above-line" style="background-image: url('<?php echo get_theme_mod('about_us_image'); ?>');"></div>
+                        <div class="content-animating-box__split--smaller content-animating-box__split--image mh-r above-line" style="background-image: url('<?php echo get_theme_mod('about_us_image'); ?>');"></div>
 
-                            <div class="content-animating-box__split mh-r content-animating-line-wrap wow" data-wow-offset="500">
-                                <div class="content-animating-line"></div>
-                                <article class="content-animating-box__content hentry clearfix above-line wow fadeInDownFixed" data-wow-offset="200">
-                                    <h4 class="small-title"><?php echo get_theme_mod('about_us_heading'); ?></h4>
-                                    <h2><?php echo get_theme_mod('about_us_title'); ?></h2>
-                                    <p><?php echo get_theme_mod('about_us_content'); ?></p>
-                                    <p><a href="<?php bloginfo('url'); ?>/about" class="btn block dark">More About Us</a></p>
-                                </article>
-                            </div>
+                        <div class="content-animating-box__split mh-r content-animating-line-wrap wow" data-wow-offset="500">
+                            <div class="content-animating-line"></div>
+                            <article class="content-animating-box__content hentry clearfix above-line wow fadeInDownFixed" data-wow-offset="200">
+                                <h4 class="small-title"><?php echo get_theme_mod('about_us_heading'); ?></h4>
+                                <h2><?php echo get_theme_mod('about_us_title'); ?></h2>
+                                <p><?php echo get_theme_mod('about_us_content'); ?></p>
+                                <p><a href="<?php bloginfo('url'); ?>/about" class="btn block dark">More About Us</a></p>
+                            </article>
                         </div>
-                    <?php }
-                    if(get_theme_mod('part3_visibility')){ ?>
+                    </div>
+                <?php }
+                if(get_theme_mod('part3_visibility')){ ?>
                     <div class="content-animating-box__row row-2 clearfix">
                         <div class="content-animating-box__split--smaller">
                             <div class="content-animating-box__box">
@@ -86,10 +87,10 @@ get_header();
                         </div>
                         <div class="content-animating-box__split content-animating-box__split--image content-animating-box__split--image-2" style="background-image: url('<?php echo get_theme_mod('choose_us_image'); ?>');"></div>
                     </div>
-                        <?php } ?>
-                </div>
+                <?php } ?>
+            </div>
 
-                <?php if(get_theme_mod('part4_visibility')){ ?>
+            <?php if(get_theme_mod('part4_visibility')){ ?>
                 <div class="layout layout--services-grid services-grid clearfix" style="background-color: <?php echo get_theme_mod('part4_color'); ?> !important;">
                     <div class="container clearfix">
                         <article class="services-grid__intro wow fadeInDownFixed" data-wow-delay="0.3s">
@@ -98,8 +99,8 @@ get_header();
                         </article>
 
                         <div class="services-grid__blocks clearfix">
-                                <?php
-                                $args = array(
+                            <?php
+                            $args = array(
                                 'orderby'                  => 'term_id',
                                 'order'                    => 'ASC',
                                 'hide_empty'               => 0,
@@ -107,16 +108,16 @@ get_header();
                                 'hierarchical'             => 1,
                                 'number'                   => 3,
                                 'taxonomy'                 => 'category',
-                                );
-                                $categories = get_categories( $args );
+                            );
+                            $categories = get_categories( $args );
 
-                                foreach($categories as $category){
-                                    $catId = $category->cat_ID;
-                                    $catImage = get_field('category_image', 'category_'.$catId);
-                                    $catUrl = get_field('categoru_url', 'category_'.$catId);
-                                    $catName = $category->name;
+                            foreach($categories as $category){
+                                $catId = $category->cat_ID;
+                                $catImage = get_field('category_image', 'category_'.$catId);
+                                $catUrl = get_field('categoru_url', 'category_'.$catId);
+                                $catName = $category->name;
 
-                                    echo '<div class="services-grid__blocks__block wow fadeInDownFixed" data-wow-delay="0.7s" style="background-image: url('.$catImage.');">
+                                echo '<div class="services-grid__blocks__block wow fadeInDownFixed" data-wow-delay="0.7s" style="background-image: url('.$catImage.');">
                                 <div class="services-grid__blocks__block__overlay"></div>
                                 <a href="'.$catUrl.'" class="full-link"></a>
                                 <div class="table-center">
@@ -127,30 +128,30 @@ get_header();
                                     </div>
                                 </div><div class="services-grid__blocks__block__links">';
 
-                                    $args1 = array(
-                                        'orderby'                  => 'term_id',
-                                        'order'                    => 'ASC',
-                                        'hide_empty'               => 0,
-                                        'parent'                   => $catId,
-                                        'hierarchical'             => 1,
-                                        'taxonomy'                 => 'category',
-                                    );
-                                    $subCategories = get_categories( $args1 );
+                                $args1 = array(
+                                    'orderby'                  => 'term_id',
+                                    'order'                    => 'ASC',
+                                    'hide_empty'               => 0,
+                                    'parent'                   => $catId,
+                                    'hierarchical'             => 1,
+                                    'taxonomy'                 => 'category',
+                                );
+                                $subCategories = get_categories( $args1 );
 
-                                    foreach ($subCategories as $subCategory){
-                                        $subCategoryUrl = get_field('categoru_url', 'category_'.$subCategory->cat_ID);
-                                        echo '<a href="'.$subCategoryUrl.'" class="services-grid__blocks__block__links__btn">'.$subCategory->name.'</a>';
-                                    }
-
-                                    echo '</div></div>';
+                                foreach ($subCategories as $subCategory){
+                                    $subCategoryUrl = get_field('categoru_url', 'category_'.$subCategory->cat_ID);
+                                    echo '<a href="'.$subCategoryUrl.'" class="services-grid__blocks__block__links__btn">'.$subCategory->name.'</a>';
                                 }
-                                ?>
+
+                                echo '</div></div>';
+                            }
+                            ?>
                         </div>
                     </div>
                 </div>
-                <?php } ?>
+            <?php } ?>
 
-                <?php if(get_theme_mod('part5_visibility')){ ?>
+            <?php if(get_theme_mod('part5_visibility')){ ?>
                 <div class="layout--projects-grid projects-grid" style="background-color: <?php echo get_theme_mod('part5_color'); ?> !important;">
                     <div class="projects-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.3s">
                         <div class="container clearfix">
@@ -197,31 +198,31 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <?php } ?>
+            <?php } ?>
 
-                <style type="text/css">
-                    .news-grid.layout--news-grid {
-                        background: #fff none repeat scroll 0 0;
-                        padding-bottom: 40px;
-                        position: relative;
-                    }
-                    .news-grid {
-                        background: #292a2e none repeat scroll 0 0;
-                        padding: 80px 0 150px;
-                    }
-                </style>
+            <style type="text/css">
+                .news-grid.layout--news-grid {
+                    background: #fff none repeat scroll 0 0;
+                    padding-bottom: 40px;
+                    position: relative;
+                }
+                .news-grid {
+                    background: #292a2e none repeat scroll 0 0;
+                    padding: 80px 0 150px;
+                }
+            </style>
 
-                <!--icons iamge-->
-                <?php if(get_theme_mod('part6_visibility')){ ?>
+            <!--icons iamge-->
+            <?php if(get_theme_mod('part6_visibility')){ ?>
                 <div class="layout--news-grid news-grid">
                     <div class="news-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.2s">
                         <img src="<?php echo content_url(); ?>/uploads/2017/01/icons-full.jpg">
                     </div>
                 </div>
-                <?php } ?>
+            <?php } ?>
 
-            </section>
-        </main>
+        </section>
+    </main>
 
 <?php
 get_footer();
