@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f8260e4-9a4b-4968-8d67-5c3d35c033a4" name="Default" comment="" />
+    <list default="true" id="1f8260e4-9a4b-4968-8d67-5c3d35c033a4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +28,13 @@
     <favorites_list name="cromalam" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="612">
               <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
                 <marker date="1492500393776" expanded="true" signature="6929:6962" ph="..." />
                 <marker date="1492500393776" expanded="true" signature="6929:7168" ph="..." />
                 <marker date="1492500393776" expanded="true" signature="6991:7027" ph="..." />
@@ -49,11 +47,10 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="2737">
               <caret line="161" column="6" lean-forward="false" selection-start-line="161" selection-start-column="4" selection-end-line="170" selection-end-column="8" />
               <folding>
                 <element signature="n#cromalam_add_contact_detail#0;n#!!top" expanded="false" />
-                <marker date="1492498329695" expanded="true" signature="9684:9724" ph="..." />
               </folding>
             </state>
           </provider>
@@ -62,8 +59,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="37" column="79" lean-forward="true" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+            <state relative-caret-position="629">
+              <caret line="37" column="79" lean-forward="false" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -159,7 +156,7 @@
       <file leaf-file-name="styles.min8a54.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/styles.min8a54.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9166">
+            <state relative-caret-position="102">
               <caret line="6" column="57126" lean-forward="false" selection-start-line="6" selection-start-column="57126" selection-end-line="6" selection-end-column="57126" />
               <folding />
             </state>
@@ -179,20 +176,13 @@
       <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="167" column="68" lean-forward="false" selection-start-line="167" selection-start-column="68" selection-end-line="167" selection-end-column="68" />
+            <state relative-caret-position="152">
+              <caret line="151" column="22" lean-forward="false" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
               <folding>
-                <element signature="e#809#909#0#HTML" expanded="true" />
-                <element signature="e#2203#2301#0#HTML" expanded="true" />
-                <element signature="e#3418#3502#0#HTML" expanded="true" />
-                <element signature="e#6498#6579#0#HTML" expanded="true" />
-                <element signature="e#10255#10336#0#HTML" expanded="true" />
-                <marker date="1492502690466" expanded="true" signature="2210:2232" ph="..." />
-                <marker date="1492502690466" expanded="true" signature="8166:8203" ph="..." />
-                <marker date="1492502690466" expanded="true" signature="8204:9932" ph="..." />
-                <marker date="1492502690466" expanded="true" signature="8430:8812" ph="..." />
-                <marker date="1492502690466" expanded="true" signature="8499:8773" ph="..." />
-                <marker date="1492502690466" expanded="true" signature="8591:8730" ph="..." />
+                <marker date="1492517049273" expanded="true" signature="1513:2011" ph="..." />
+                <marker date="1492517049273" expanded="false" signature="1557:1596" ph="..." />
+                <marker date="1492517049273" expanded="true" signature="1736:1980" ph="..." />
+                <marker date="1492517049273" expanded="true" signature="1830:1945" ph="..." />
               </folding>
             </state>
           </provider>
@@ -218,7 +208,7 @@
       <file leaf-file-name="main.min8a54.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
+            <state relative-caret-position="0">
               <caret line="0" column="2413" lean-forward="false" selection-start-line="0" selection-start-column="2413" selection-end-line="0" selection-end-column="2413" />
               <folding />
             </state>
@@ -267,6 +257,12 @@
     <dirStrings>
       <dir>C:\xampp\htdocs\cromalam\wp-content\themes\cromalam\fonts</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -323,8 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -339,6 +333,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,11 +433,21 @@
       <workItem from="1491996331393" duration="422000" />
       <workItem from="1492167090433" duration="724000" />
       <workItem from="1492423762705" duration="20247000" />
+      <workItem from="1492516955674" duration="50000" />
+      <workItem from="1492517019363" duration="30000" />
     </task>
+    <task id="LOCAL-00001" summary="add gitignore">
+      <created>1492516979173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492516979173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74328000" />
+    <option name="totallyTimeSpent" value="74408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,14 +460,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27458397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28366113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40589198" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -471,6 +476,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40589198" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -499,6 +505,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,19 +634,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ml-slider/inc/slider/metaslider.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="353" column="76" lean-forward="false" selection-start-line="353" selection-start-column="66" selection-end-line="353" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ml-slider/inc/slider/metaslider.class.php" />
     <entry file="file://$PROJECT_DIR$/wp-includes/shortcodes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="201" column="9" lean-forward="false" selection-start-line="201" selection-start-column="9" selection-end-line="201" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1759">
           <caret line="606" column="4" lean-forward="true" selection-start-line="606" selection-start-column="4" selection-end-line="611" selection-end-column="118" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="0" column="14177" lean-forward="false" selection-start-line="0" selection-start-column="14177" selection-end-line="0" selection-end-column="14177" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,23 +762,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="2" column="149" lean-forward="false" selection-start-line="2" selection-start-column="149" selection-end-line="2" selection-end-column="149" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/fonts/neuropol.ttf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/fonts/neuropol.ttf" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/fonts/neuropol.ttf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="1035" column="358" lean-forward="false" selection-start-line="1035" selection-start-column="358" selection-end-line="1035" selection-end-column="358" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,24 +777,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="2737">
           <caret line="161" column="6" lean-forward="false" selection-start-line="161" selection-start-column="4" selection-end-line="170" selection-end-column="8" />
           <folding>
             <element signature="n#cromalam_add_contact_detail#0;n#!!top" expanded="false" />
-            <marker date="1492498329695" expanded="true" signature="9684:9724" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/styles.min8a54.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9166">
+        <state relative-caret-position="102">
           <caret line="6" column="57126" lean-forward="false" selection-start-line="6" selection-start-column="57126" selection-end-line="6" selection-end-column="57126" />
           <folding />
         </state>
@@ -818,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
+        <state relative-caret-position="0">
           <caret line="0" column="2413" lean-forward="false" selection-start-line="0" selection-start-column="2413" selection-end-line="0" selection-end-column="2413" />
           <folding />
         </state>
@@ -924,14 +906,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="612">
           <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
             <marker date="1492500393776" expanded="true" signature="6929:6962" ph="..." />
             <marker date="1492500393776" expanded="true" signature="6929:7168" ph="..." />
             <marker date="1492500393776" expanded="true" signature="6991:7027" ph="..." />
@@ -950,28 +927,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="37" column="79" lean-forward="true" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+        <state relative-caret-position="629">
+          <caret line="37" column="79" lean-forward="false" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="167" column="68" lean-forward="false" selection-start-line="167" selection-start-column="68" selection-end-line="167" selection-end-column="68" />
+        <state relative-caret-position="152">
+          <caret line="151" column="22" lean-forward="false" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
           <folding>
-            <element signature="e#809#909#0#HTML" expanded="true" />
-            <element signature="e#2203#2301#0#HTML" expanded="true" />
-            <element signature="e#3418#3502#0#HTML" expanded="true" />
-            <element signature="e#6498#6579#0#HTML" expanded="true" />
-            <element signature="e#10255#10336#0#HTML" expanded="true" />
-            <marker date="1492502690466" expanded="true" signature="2210:2232" ph="..." />
-            <marker date="1492502690466" expanded="true" signature="8166:8203" ph="..." />
-            <marker date="1492502690466" expanded="true" signature="8204:9932" ph="..." />
-            <marker date="1492502690466" expanded="true" signature="8430:8812" ph="..." />
-            <marker date="1492502690466" expanded="true" signature="8499:8773" ph="..." />
-            <marker date="1492502690466" expanded="true" signature="8591:8730" ph="..." />
+            <marker date="1492517049273" expanded="true" signature="1513:2011" ph="..." />
+            <marker date="1492517049273" expanded="false" signature="1557:1596" ph="..." />
+            <marker date="1492517049273" expanded="true" signature="1736:1980" ph="..." />
+            <marker date="1492517049273" expanded="true" signature="1830:1945" ph="..." />
           </folding>
         </state>
       </provider>

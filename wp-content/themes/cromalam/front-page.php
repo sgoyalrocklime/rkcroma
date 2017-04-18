@@ -150,7 +150,6 @@ get_header();
                     </div>
                 </div>
             <?php } ?>
-
             <?php if(get_theme_mod('part5_visibility')){ ?>
                 <div class="layout--projects-grid projects-grid" style="background-color: <?php echo get_theme_mod('part5_color'); ?> !important;">
                     <div class="projects-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.3s">
