@@ -15,6 +15,8 @@ function cromalam_init()
     add_action('customize_register', 'cromalam_add_about_us_settings');
     add_action('customize_register', 'cromalam_add_choose_us_settings');
 
+    cromalam_post_type_for_home_page_slider();
+
     add_theme_support('custom-logo');
     add_post_type_support('page', 'excerpt');
     add_theme_support( 'post-thumbnails' );
@@ -287,6 +289,16 @@ function cromalam_custom_logo()
         <a href="<?php echo get_site_url(); ?>" style="background-image: url('<?php echo wp_get_attachment_url($custom_logo_id); ?>');" class="site-header__logo site-header__logo--front" target="_parent"><span class="text-replace">Croma Decorative Laminates</span></a>
         <?php
     }
+}
+
+// cromalam post type for home page slider
+function cromalam_post_type_for_home_page_slider(){
+    $args = array(
+        'labels' => array('name'=> 'Home Slider'),
+        'public' => true,
+        'supports' => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt', 'page-attributes')
+    );
+    register_post_type( 'home-page-slider' , $args );
 }
 
 function pr($array){
