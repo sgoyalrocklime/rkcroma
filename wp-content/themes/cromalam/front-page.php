@@ -212,80 +212,13 @@ get_header();
             </style>
 
             <!--icons iamge-->
-            <?php /*if(get_theme_mod('part6_visibility')){ */?><!--
-                <div class="layout--news-grid news-grid">
-                    <div class="news-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.2s">
-                        <img src="<?php /*echo get_stylesheet_directory_uri(); */?>/images/icons-full.jpg">
-                    </div>
-                </div>
-            --><?php /*} */?>
             <?php if(get_theme_mod('part6_visibility')){ ?>
                 <div class="layout--news-grid news-grid">
                     <div class="news-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.2s">
-                        <!--<img src="<?php /*echo content_url(); */?>/uploads/2017/01/icons-full.jpg">-->
-                        <div class="demo">
-                            <div class="item">
-                                <ul id="content-slider" class="content-slider">
-                                    <li>
-                                        <img src="http://placehold.it/300/e91e63/000000">
-                                    </li>
-                                    <li>
-                                        <img src="http://placehold.it/300/e91e63/000000">
-                                    </li>
-                                    <li>
-                                        <img src="http://placehold.it/300/e91e63/000000">
-                                    </li>
-                                    <li>
-                                        <img src="http://placehold.it/300/e91e63/000000">
-                                    </li>
-                                    <li>
-                                        <img src="http://placehold.it/300/e91e63/000000">
-                                    </li>
-                                    <li>
-                                        <img src="http://placehold.it/300/e91e63/000000">
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons-full.jpg">
                     </div>
                 </div>
-
-                <style>     ul{
-                        list-style: none outside none;
-                        padding-left: 0;
-                        margin: 0;
-                    }
-                    /* .demo .item{
-                    margin-bottom: 60px;
-                    }*/
-                    .content-slider li{
-                        background-color: #ed3020;
-                        text-align: center;
-                        color: #FFF;
-                    }
-                    .content-slider h3 {
-                        margin: 0;
-                        padding: 70px 0;
-                    }
-                    .lSPager.lSpg {
-                        display: none;
-                    }
-                    .item {
-                        margin: 0 auto;
-                        width: 90%;
-                    }
-                    .demo{
-                        width: 100%;
-                    }</style>
             <?php } ?>
-            <script>
-                jQuery.noConflict();
-                jQuery(document).ready(function() {
-                    jQuery("#content-slider").lightSlider({
-                        loop:true,
-                        keyPress:true
-                    });
-                });</script>
 
         </section>
     </main>
