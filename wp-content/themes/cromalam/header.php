@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&amp;subset=latin%2Clatin-ext&amp;ver=4.7.2' type='text/css' media='all' />
-    <link rel='shortcut icon' href='<?php echo get_stylesheet_directory_uri(); ?>\images\favicon\croma-fev.png' type='image/x-icon' />
+    <link rel='shortcut icon' href='<?php echo get_stylesheet_directory_uri(); ?>/images/favicon/croma-fev.png' type='image/x-icon' />
 <?php wp_head(); ?>
 </head>
 

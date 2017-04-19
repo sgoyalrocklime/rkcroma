@@ -16,6 +16,10 @@ function cromalam_init()
     add_action('customize_register', 'cromalam_add_choose_us_settings');
 
     cromalam_post_type_for_home_page_slider();
+    cromalam_post_type_for_events();
+    cromalam_post_type_for_partners();
+
+    add_shortcode('cromalam-all-events', 'cromalam_get_all_events');
 
     add_theme_support('custom-logo');
     add_post_type_support('page', 'excerpt');
@@ -299,6 +303,78 @@ function cromalam_post_type_for_home_page_slider(){
         'supports' => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt', 'page-attributes')
     );
     register_post_type( 'home-page-slider' , $args );
+}
+
+// cromalam post type for home page slider
+function cromalam_post_type_for_events(){
+    $args = array(
+        'labels' => array('name'=> 'Events'),
+        'public' => true,
+        'supports' => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt', 'page-attributes')
+    );
+    register_post_type( 'events' , $args );
+}
+
+// cromalam post type for partners
+function cromalam_post_type_for_partners(){
+    $args = array(
+        'labels' => array('name'=> 'Partners'),
+        'public' => true,
+        'supports' => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt', 'page-attributes')
+    );
+    register_post_type( 'partners' , $args );
+}
+
+// cromalam_get_all_events
+function cromalam_get_all_events(){
+    ob_start();
+
+    $html = '';
+
+    $args = array(
+        "posts_per_page" => -1,
+        "order"          => "ASC",
+        "post_type"    => "events",
+    );
+
+    $events = new WP_Query($args);
+
+    $events = $events->get_posts();
+
+    if(count($events)):
+
+        foreach ($events as $event){
+            $eventTitle = $event->post_title;
+            $eventDescription = $event->post_content;
+            $eventID = $event->ID;
+            $eventExcerpt= $event->post_excerpt;
+            $eventImage = get_the_post_thumbnail_url($eventID);
+            $eventDate = get_field('event_date', $eventID);
+
+            $html .= '<div class="news-grid__items__item news-grid__items__item--double wow fadeInDownFixed" data-wow-delay="1.4s">
+							  <div class="news-grid__items__item__inner">
+								  <div class="post-item post-item--tall">
+									  <div class="post-item__double">
+										  <figure class="post-item__double__image">
+											  <img width="983" height="790" src="'.$eventImage.'" class="attachment-grid_double size-grid_double wp-post-image" alt="" />
+											  <div class="meta">
+												  <a href="category/stortford/index.html">'.$eventTitle.'</a>
+												  <span>'.$eventDate.'</span>
+											  </div>
+											  <h2>'.$eventDescription.'</h2>
+											  '.$eventExcerpt.'
+										  </figure>
+									  </div>
+								  </div>
+							  </div>
+						  </div>';
+        }
+
+    endif;
+
+    return $html;
+
+    ob_clean();
 }
 
 function pr($array){
