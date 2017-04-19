@@ -167,7 +167,7 @@ get_header();
                                     <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5">Bedroom<div class="projects-grid__items__item__title__excerpt"><p class="intro">Scope of works: Croma Decorative Laminates were appointed ...</div></h2>
                                     <div class="projects-grid__items__item__carousel slick">
                                         <div class="projects-grid__items__item__carousel__slide slick-slide">
-                                            <img width="502" height="426" src="<?php echo content_url(); ?>/uploads/2017/01/riverwalk-preview-502x426.jpg" class="attachment-gallery_rectangle size-gallery_rectangle" alt="" />						</div>
+                                            <img width="502" height="426" src="<?php echo get_stylesheet_directory_uri(); ?>/images/riverwalk-preview-502x426.jpg" class="attachment-gallery_rectangle size-gallery_rectangle" alt="" />						</div>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@ get_header();
                                     <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5" >Kitchen<div class="projects-grid__items__item__title__excerpt"><p class="intro">Battersea Dogs &amp; Cats Home Appointed by ...</div></h2>
                                     <div class="projects-grid__items__item__carousel slick">
                                         <div class="projects-grid__items__item__carousel__slide slick-slide">
-                                            <img width="625" height="426" src="<?php echo content_url(); ?>/uploads/2017/01/battersea-preview.jpg" class="attachment-gallery_rectangle size-gallery_rectangle" alt="" srcset="<?php echo site_url(); ?>/wp-content/uploads/2017/01/battersea-preview.jpg 625w, <?php echo site_url(); ?>/wp-content/uploads/2017/01/battersea-preview-300x204.jpg 300w" sizes="(max-width: 625px) 100vw, 625px" />						</div>
+                                            <img width="625" height="426" src="<?php echo get_stylesheet_directory_uri(); ?>/images/battersea-preview.jpg" class="attachment-gallery_rectangle size-gallery_rectangle" alt="" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/battersea-preview.jpg 625w, <?php echo get_stylesheet_directory_uri(); ?>/images/battersea-preview-300x204.jpg 300w" sizes="(max-width: 625px) 100vw, 625px" />						</div>
                                     </div>
                                 </div>
                             </div>
@@ -189,7 +189,7 @@ get_header();
                                     <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5" >Office<div class="projects-grid__items__item__title__excerpt"><p class="intro">BNP Paribas Croma Decorative Laminates were appointed to ...</div></h2>
                                     <div class="projects-grid__items__item__carousel slick">
                                         <div class="projects-grid__items__item__carousel__slide slick-slide">
-                                            <img width="502" height="502" src="<?php echo site_url(); ?>/wp-content/uploads/2016/10/Project-Preview-1.jpg" class="attachment-gallery_circle size-gallery_circle" alt="" sizes="(max-width: 502px) 100vw, 502px" />						</div>
+                                            <img width="502" height="502" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Project-Preview-1.jpg" class="attachment-gallery_circle size-gallery_circle" alt="" sizes="(max-width: 502px) 100vw, 502px" />						</div>
 
                                     </div>
                                 </div>
@@ -212,13 +212,80 @@ get_header();
             </style>
 
             <!--icons iamge-->
+            <?php /*if(get_theme_mod('part6_visibility')){ */?><!--
+                <div class="layout--news-grid news-grid">
+                    <div class="news-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.2s">
+                        <img src="<?php /*echo get_stylesheet_directory_uri(); */?>/images/icons-full.jpg">
+                    </div>
+                </div>
+            --><?php /*} */?>
             <?php if(get_theme_mod('part6_visibility')){ ?>
                 <div class="layout--news-grid news-grid">
                     <div class="news-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.2s">
-                        <img src="<?php echo content_url(); ?>/uploads/2017/01/icons-full.jpg">
+                        <!--<img src="<?php /*echo content_url(); */?>/uploads/2017/01/icons-full.jpg">-->
+                        <div class="demo">
+                            <div class="item">
+                                <ul id="content-slider" class="content-slider">
+                                    <li>
+                                        <img src="http://placehold.it/300/e91e63/000000">
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/300/e91e63/000000">
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/300/e91e63/000000">
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/300/e91e63/000000">
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/300/e91e63/000000">
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/300/e91e63/000000">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <style>     ul{
+                        list-style: none outside none;
+                        padding-left: 0;
+                        margin: 0;
+                    }
+                    /* .demo .item{
+                    margin-bottom: 60px;
+                    }*/
+                    .content-slider li{
+                        background-color: #ed3020;
+                        text-align: center;
+                        color: #FFF;
+                    }
+                    .content-slider h3 {
+                        margin: 0;
+                        padding: 70px 0;
+                    }
+                    .lSPager.lSpg {
+                        display: none;
+                    }
+                    .item {
+                        margin: 0 auto;
+                        width: 90%;
+                    }
+                    .demo{
+                        width: 100%;
+                    }</style>
             <?php } ?>
+            <script>
+                jQuery.noConflict();
+                jQuery(document).ready(function() {
+                    jQuery("#content-slider").lightSlider({
+                        loop:true,
+                        keyPress:true
+                    });
+                });</script>
 
         </section>
     </main>

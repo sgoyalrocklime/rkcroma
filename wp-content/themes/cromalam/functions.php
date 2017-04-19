@@ -33,6 +33,7 @@ function cromalam_enqueue_styles()
     wp_enqueue_style('main-style', get_stylesheet_directory_uri() . '/css/style.css');
     wp_enqueue_style('main-min', get_stylesheet_directory_uri() . '/css/main.min8a54.css');
     wp_enqueue_style('style-min', get_stylesheet_directory_uri() . '/css/styles.min8a54.css');
+    wp_enqueue_style('lightslider', get_stylesheet_directory_uri() . '/css/lightslider.css');
 }
 
 // Register menus

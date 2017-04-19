@@ -2,161 +2,436 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8260e4-9a4b-4968-8d67-5c3d35c033a4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/class-wonderplugin-carousel-controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/class-wonderplugin-carousel-creator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/class-wonderplugin-carousel-list-table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/class-wonderplugin-carousel-model.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/class-wonderplugin-carousel-update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/class-wonderplugin-carousel-view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/wonderplugin-carousel-creator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/wonderplugin-carousel-functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/app/wonderplugincarouseltemplate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-28-28-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-32-32-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-32-32-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-32-32-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-32-32-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-32-32-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-36-36-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-36-36-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-36-80-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-42-60-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-48-48-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/arrows-72-72-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/background-0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/background-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/background-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bottomshadow-110-100-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bottomshadow-110-95-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bottomshadow-110-95-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bottomshadow-110-95-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bottomshadow-110-95-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bottomshadow-110-95-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-12-12-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-12-12-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-16-16-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-16-16-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-16-16-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-16-16-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-20-20-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-20-20-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-24-24-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-24-24-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-24-24-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-24-24-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-24-24-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-24-24-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/bullet-24-24-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/froogaloop2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/hoveroverlay-64-64-9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/html5boxplayer.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/html5boxplayer_fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/html5boxplayer_hd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/html5boxplayer_playpause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/html5boxplayer_playvideo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/html5boxplayer_volume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/css/animation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/css/fontello-codes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/css/fontello-embedded.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/css/fontello-ie7-codes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/css/fontello-ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/css/fontello.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/font/fontello.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/font/fontello.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/font/fontello.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/font/fontello.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/icons/font/fontello.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/itembottomshadow-100-100-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/itembottomshadow-100-98-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/itembottomshadow-100-98-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/itembottomshadow-100-98-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/itembottomshadow-100-98-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/itembottomshadow-100-98-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/itembottomshadow-100-99-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-close-fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-fullscreen-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-navcontrol.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-navnext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-navprev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-next-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-next-fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-pause-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-play-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-playvideo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-prev-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-prev-fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/lightbox-prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/play-32-32-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/playvideo-64-64-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/playvideo-64-64-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/playvideo-64-64-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/playvideo-64-64-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/playvideo-64-64-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/playvideo-64-64-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/wonderplugincarousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/wonderplugincarouselskins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/classic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/classicwithflip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/fashion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/flip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/flow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/gallery.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/highlight.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/hoverover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/list.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/logo-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/logo-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/navigator.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/numbering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/readmore.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/rotator.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/scroller.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/showcase.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/simplicity.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/stylish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/testimonial.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/testimonialcarousel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/textonly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/tworows.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/vertical.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/wordpresscustompost.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/wordpressposts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/images/youtubeplaylist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/wonderplugincarousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/wonderplugincarousel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/cache/nextend/notweb/n2-ss-2/slideren_US1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/cache/nextend/notweb/n2-ss-2/slideren_US1.manifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/cache/nextend/notweb/n2-ss-2/variations.manifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/cache/nextend/web/n2/n2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/cache/nextend/web/n2/n2.js.manifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2015/01/Multi-Package-Paddington-Award-Secured.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/01/Battersea-Dogs-Cats-Home-project.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/01/battersea-850x501.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/01/battersea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/02/4-Kingdom-Street-1-850x550.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/02/4-Kingdom-Street-1-983x790.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/02/4-Kingdom-Street-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/02/Parkrose-Excellence-Rewarded.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/10hammer02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/10hammer03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/10hammer04-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/10hammer04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/10hammersmith-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/10hammersmith-preview-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/12hammersmith-preview-444x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/12hammersmith-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/8-Build.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ABout-Image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ABout-Image.jpg--old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Accreditations-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/AmexProject02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/AmexProject03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/AmexProject04-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/AmexProject04-800x545.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/AmexProject05-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/AmexProject05-800x545.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/AmexProject06-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/AmexProject06-800x545.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/BW.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Bishops-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/FIS.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Faithdean.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Fitzroy-Club-0253-150-1-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Fitzroy-Club-0253-150-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Frank-Lohan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Hero-Final-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/IGBC_Member.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ISO_14001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/It's-Gold-for-Stortford.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Jim-Nania-e1463654405902.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/KPMG02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/KPMG03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/KPMG04-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/KPMG04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/KPMG05-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/KPMG05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/KPMG06-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/KPMG06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Kier.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/One-America-Aquare-copy-586x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/One-America-Square-18-400x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/One-America-Square-18-400x545.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Parkrose-Logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/SH02-1-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/SH03-1-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/SH04-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/SH04-800x545.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/SH05-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/SH05-800x545.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/SH06-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/SH06-800x545.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Stephen-Byrne.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Stortford-Celebrations-at-FIS-President's-Awards-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Stortford-Celebrations-at-FIS-President's-Awards.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/VE02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/VE03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/VE04-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/VE04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/VE05-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/VE05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Willmott.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/Z-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/about-banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/amex-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/amex-main.jpg-old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/amex-preview-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/architecturalpackaging.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/award-badge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops04-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops05-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops06-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/bishops06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/brendan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon-preview-2-444x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon04-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon05-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon06-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/canon06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/careers-banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/careersimage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ce-mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/coremain-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/croma_laminates.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/croma_laminates04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/csr-mainbanner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/csrleft.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/davies-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/davies-preview-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/davies02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/davies03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/davies04-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/davies04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/drywall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton-preview-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton04-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton05-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton06-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/eaton0main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitoutmain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy01-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy02-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy03-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy03-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy04-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy04-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy05-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy05-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy06-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy06-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroy06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyclub-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyclub-preview-2-444x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyclub-preview-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace-main-1-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace-preview-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace04-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace05-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace06-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/fitzroyplace06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/garrick-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/garrick02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/garrick03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/garrick04-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/garrick04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/garrick05-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/garrick05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/garrickclub-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/glasswall-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich-preview-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich04-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich05-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich06-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/greenwich06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/hammersmith-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/hammersmith01-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/hammersmith02-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/hammersmith03-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/hammersmith03-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/hammersmith03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/harvey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/home-caitlin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/home-imageleft.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/home-imageleft.jpg--old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/home-imageright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/home-imageright.jpg-old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/home-wragge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/iso_certified-9001-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/jim.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/joinery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/king-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/king-preview-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/king02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/king03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/king04-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/king04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds-preview-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds04-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds05-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds06-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgleeds06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgmanchester-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/kpmgmanchester-preview-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/let's-have-a-conv.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/local-community.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/logo01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/logo02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/logo03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/logo04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/logo05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/logo06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/logo07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/logo08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/main-amex.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/main-fitzroy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/main-greenwich.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/narnia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/oneamercia-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/oneamerica01-1-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/oneamerica02-1-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/oneamerica02-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/oneamerica08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/oneamerica10-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/oneamerica10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/parkrose-banner02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/parkrose-banner04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/parkrose-banner05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/parkrose-banner06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/people-image2-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/power.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/projects-image-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ropemaker-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ropemaker-preview-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ropemaker02-1-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ropemaker03-1-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ropemaker04-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/ropemaker04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/scott.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/service-corefeature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/service-fitoutfeature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/service-parkrosefeature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/shhs-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/shhs-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/shhs-testimonial.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/st_20151010_xgreenlabel_1750317.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/suspendedceilings.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/testimonials-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/victoria-preview-444x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/vixctoria-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/washroom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/whowearepanel01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/whowearepanel01.jpg--old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wigmore-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wigmore-preview-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wigmore02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wigmore03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wigmore04-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wigmore04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wigmore05-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wigmore05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge-preview-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge02-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge03-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge04-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge05-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge06-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/05/wragge06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/06/0253-020-1-850x550.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/06/0253-020-1-983x790.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/06/0253-020-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/06/iso_certified-9001-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/06/services-banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/06/silveraward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/07/Stortford-News-Post-1-850x550.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/07/Stortford-News-Post-1-983x790.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/07/Stortford-News-Post-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/07/buckingham-gate-850x550.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/07/buckingham-gate-983x790.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/07/buckingham-gate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/14E9171-300x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/DSCF0567-300x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/stortford-newmarket-300x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/stortford-newmarket-850x550.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/stortford-newmarket-983x790.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/stortford-newmarket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/251-850x550.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/251-983x790.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/251.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Carousel-2-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Carousel-Large-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Carousel-Large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Carousel-smaill-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Havas-Stortford-850x550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Havas-Stortford-983x790.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Havas-Stortford.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Header-204x204.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Imperial-West-24-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Imperial-West-24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Imperial-West-27-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Imperial-West-27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Large-Carousel-2-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Large-Carousel-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Large-Carousel-3-444x506.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Large-Carousel-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/Project-Preview-Image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/tableau-850x550.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/tableau-983x790.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/tableau.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/BNP-Paribas-12-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/BNP-Paribas-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Carousel-small-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Header-Asset-1-204x204.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Header-Asset-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Hero-Final-2-204x204.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Hero-Final-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Hero-Final.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Image-carousel-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Project-Preview-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Project-Preview-502x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Project-Preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-2-Final-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-2-Final-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-2-Final.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-6-Final-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-6-Final-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-6-Final.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-Final-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-Final-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/SLider-Final.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-1-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-1-665x510.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-2-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-3-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-3-Final-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-3-Final-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-3-Final.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-4-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-4-Final-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-4-Final-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-4-Final.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-5-Final-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-5-Final-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Slider-5-Final.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/Untitled-2-293x458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/battersea-850x550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/battersea-983x790.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/battersea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/10/office2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/11/Kings-Court-Stortford-850x550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/11/Kings-Court-Stortford-983x790.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/11/Kings-Court-Stortford.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/11/Tasman-House-1-850x550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/11/Tasman-House-1-983x790.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/11/Tasman-House-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/12/Creechurch-850x550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/12/Creechurch-983x790.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/12/Creechurch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/148-Old-Street-850x550.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/148-Old-Street-983x790.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/148-Old-Street.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/3-Apartment-Furnished-3-1-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/4-Bathroom-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/BDCH-39-400x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/BDCH-39-400x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/BDCH-39-400x545.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/Fruit-and-wool-web-850x550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/Fruit-and-wool-web-983x790.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/Fruit-and-wool-web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/London-Bridge-850x550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/London-Bridge-983x790.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/London-Bridge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery01-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery01-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery02-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery02-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery03-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery03-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-gallery03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-header01-204x204.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-header01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-image01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-image02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-preview-502x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/battersea-testimonial.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/bedroom2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/icons-full.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/kitchen2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/office2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/riverwalk-gallery01-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/riverwalk-gallery01-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/riverwalk-gallery01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/riverwalk-gallery02-502x502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/riverwalk-gallery02-625x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/riverwalk-gallery02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/riverwalk-preview-502x426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/riverwalk-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/unnamed-204x204.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/01/unnamed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/02/quadrant-4-850x550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/02/quadrant-4-983x790.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/02/quadrant-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/master-slider/custom.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -181,12 +456,96 @@
     <favorites_list name="cromalam" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="225" column="24" lean-forward="false" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
+              <folding>
+                <element signature="e#15029#16316#0#HTML" expanded="false" />
+                <marker date="1492597610267" expanded="true" signature="1513:2011" ph="..." />
+                <marker date="1492597610267" expanded="false" signature="1557:1596" ph="..." />
+                <marker date="1492597610267" expanded="true" signature="1736:1980" ph="..." />
+                <marker date="1492597610267" expanded="true" signature="1830:1945" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lightslider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/lightslider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <marker date="1492597525935" expanded="true" signature="15211:15305" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-careers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page-careers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2806">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="32" column="110" lean-forward="false" selection-start-line="32" selection-start-column="110" selection-end-line="32" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="35" column="93" lean-forward="false" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
+              <folding>
+                <element signature="n#cromalam_add_contact_detail#0;n#!!top" expanded="false" />
+                <marker date="1492597407280" expanded="true" signature="11760:12428" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11813:12413" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11863:12397" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11906:12380" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11960:12009" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11960:12010" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11960:12032" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11960:12283" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11960:12323" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11960:12324" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="11960:12362" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="12129:12184" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="12129:12185" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="12129:12224" ph="..." />
+                <marker date="1492597407280" expanded="true" signature="12129:12265" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cromalam_add_home_page_settings</find>
-      <find>unnamed</find>
       <find>loader-red</find>
       <find>-loader-red</find>
       <find>loader-logo logo</find>
@@ -215,6 +574,8 @@
       <find>wp-content/themes/stortford-interiors/images/favicon/croma-fev.png</find>
       <find>butt</find>
       <find>button</find>
+      <find>uploads</find>
+      <find>Project-Preview-1</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -253,10 +614,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/scripts.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/header.php" />
+        <option value="$USER_HOME$/Downloads/croma/inspiration/inspiration.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" />
-        <option value="$USER_HOME$/Downloads/croma/inspiration/inspiration.html" />
       </list>
     </option>
   </component>
@@ -288,7 +649,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,6 +673,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cromalam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cromalam" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cromalam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cromalam" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2017" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,7 +810,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,7 +911,8 @@
       <workItem from="1492423762705" duration="20247000" />
       <workItem from="1492516955674" duration="50000" />
       <workItem from="1492517019363" duration="1169000" />
-      <workItem from="1492578346030" duration="11722000" />
+      <workItem from="1492578346030" duration="11806000" />
+      <workItem from="1492593082602" duration="2594000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1492516979173</created>
@@ -523,7 +925,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87269000" />
+    <option name="totallyTimeSpent" value="89947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,14 +938,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2881997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2927383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40589198" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -553,6 +954,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40589198" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -593,13 +995,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -739,13 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page-careers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/images/hero-arrow-left.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -804,19 +1192,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,32 +1207,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/wonderplugincarousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/wonderplugincarousel.js" />
     <entry file="file://$USER_HOME$/Downloads/croma/events/events.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="298" column="0" lean-forward="false" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#2;n#div#0;n#section#0;n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,58 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="134" lean-forward="true" selection-start-line="7" selection-start-column="134" selection-end-line="7" selection-end-column="134" />
-          <folding>
-            <marker date="1492592144766" expanded="true" signature="6929:6962" ph="..." />
-            <marker date="1492592144766" expanded="true" signature="6929:7168" ph="..." />
-            <marker date="1492592144766" expanded="true" signature="6991:7027" ph="..." />
-            <marker date="1492592144766" expanded="true" signature="6991:7162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="320" column="37" lean-forward="false" selection-start-line="320" selection-start-column="37" selection-end-line="320" selection-end-column="37" />
-          <folding>
-            <element signature="n#cromalam_add_contact_detail#0;n#!!top" expanded="false" />
-            <marker date="1492587661481" expanded="true" signature="11666:12334" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11719:12319" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11769:12303" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11812:12286" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11866:11915" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11866:11916" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11866:11938" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11866:12189" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11866:12229" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11866:12230" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="11866:12268" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="12035:12090" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="12035:12091" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="12035:12130" ph="..." />
-            <marker date="1492587661481" expanded="true" signature="12035:12171" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="217" column="95" lean-forward="true" selection-start-line="217" selection-start-column="95" selection-end-line="217" selection-end-column="95" />
-          <folding>
-            <marker date="1492592174189" expanded="true" signature="1513:2011" ph="..." />
-            <marker date="1492592174189" expanded="false" signature="1557:1596" ph="..." />
-            <marker date="1492592174189" expanded="true" signature="1736:1980" ph="..." />
-            <marker date="1492592174189" expanded="true" signature="1830:1945" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,11 +1233,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="271" selection-end-column="7" />
-          <folding>
-            <element signature="n#main#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#15843#15848#0" expanded="true" />
-            <marker date="1492592199252" expanded="true" signature="11304:11700" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,7 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="57093" lean-forward="true" selection-start-line="6" selection-start-column="57093" selection-end-line="6" selection-end-column="57093" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,7 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="0" column="22021" lean-forward="false" selection-start-line="0" selection-start-column="22021" selection-end-line="0" selection-end-column="22021" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,6 +1262,79 @@
         <state relative-caret-position="68">
           <caret line="3" column="2316" lean-forward="false" selection-start-line="3" selection-start-column="2316" selection-end-line="3" selection-end-column="2316" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page-careers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2806">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="110" lean-forward="false" selection-start-line="32" selection-start-column="110" selection-end-line="32" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="93" lean-forward="false" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
+          <folding>
+            <element signature="n#cromalam_add_contact_detail#0;n#!!top" expanded="false" />
+            <marker date="1492597407280" expanded="true" signature="11760:12428" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11813:12413" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11863:12397" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11906:12380" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11960:12009" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11960:12010" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11960:12032" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11960:12283" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11960:12323" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11960:12324" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="11960:12362" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="12129:12184" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="12129:12185" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="12129:12224" ph="..." />
+            <marker date="1492597407280" expanded="true" signature="12129:12265" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/lightslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <marker date="1492597525935" expanded="true" signature="15211:15305" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="225" column="24" lean-forward="false" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
+          <folding>
+            <element signature="e#15029#16316#0#HTML" expanded="false" />
+            <marker date="1492597610267" expanded="true" signature="1513:2011" ph="..." />
+            <marker date="1492597610267" expanded="false" signature="1557:1596" ph="..." />
+            <marker date="1492597610267" expanded="true" signature="1736:1980" ph="..." />
+            <marker date="1492597610267" expanded="true" signature="1830:1945" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
