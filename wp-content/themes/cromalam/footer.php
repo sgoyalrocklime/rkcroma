@@ -30,11 +30,14 @@
 </div>
 </div>
 
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
+
 <script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.min.js'></script>
+<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/ajax-jquery.min.js'></script>
+<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/lightslider.js'></script>
 <script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/scripts.min.js'></script>
 <script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/main.min.js'></script>
 <script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/common.js'></script>
+
 <script>jQuery(document).ready(function() {window.afterPreloader();});</script>
 
 </body>

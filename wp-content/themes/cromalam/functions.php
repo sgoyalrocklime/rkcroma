@@ -18,8 +18,10 @@ function cromalam_init()
     cromalam_post_type_for_home_page_slider();
     cromalam_post_type_for_events();
     cromalam_post_type_for_partners();
+    cromalam_post_type_for_highlights();
 
     add_shortcode('cromalam-all-events', 'cromalam_get_all_events');
+    add_shortcode('cromalam-highlight-posts', 'cromalam_get_all_highlight_posts');
 
     add_theme_support('custom-logo');
     add_post_type_support('page', 'excerpt');
@@ -33,6 +35,7 @@ function cromalam_enqueue_styles()
     wp_enqueue_style('main-style', get_stylesheet_directory_uri() . '/css/style.css');
     wp_enqueue_style('main-min', get_stylesheet_directory_uri() . '/css/main.min8a54.css');
     wp_enqueue_style('style-min', get_stylesheet_directory_uri() . '/css/styles.min8a54.css');
+     wp_enqueue_style('lightslider', get_stylesheet_directory_uri() . '/css/lightslider.css');
 }
 
 // Register menus
@@ -325,6 +328,16 @@ function cromalam_post_type_for_partners(){
     register_post_type( 'partners' , $args );
 }
 
+// cromalam post type for highlights
+function cromalam_post_type_for_highlights(){
+    $args = array(
+        'labels' => array('name'=> 'Highlights'),
+        'public' => true,
+        'supports' => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt', 'page-attributes')
+    );
+    register_post_type( 'highlights' , $args );
+}
+
 // cromalam_get_all_events
 function cromalam_get_all_events(){
     ob_start();
@@ -347,7 +360,7 @@ function cromalam_get_all_events(){
             $eventTitle = $event->post_title;
             $eventDescription = $event->post_content;
             $eventID = $event->ID;
-            $eventExcerpt= $event->post_excerpt;
+            $eventUrl= get_the_permalink($eventID);
             $eventImage = get_the_post_thumbnail_url($eventID);
             $eventDate = get_field('event_date', $eventID);
 
@@ -362,12 +375,89 @@ function cromalam_get_all_events(){
 												  <span>'.$eventDate.'</span>
 											  </div>
 											  <h2>'.$eventDescription.'</h2>
-											  '.$eventExcerpt.'
+											  <a href="'.$eventUrl.'" class="full-link"></a>
 										  </figure>
 									  </div>
 								  </div>
 							  </div>
 						  </div>';
+        }
+
+    endif;
+
+    return $html;
+
+    ob_clean();
+}
+
+// cromalam_get_all_highlight_posts
+function cromalam_get_all_highlight_posts(){
+    ob_start();
+
+    $html = '';
+
+    $args = array(
+        "posts_per_page" => -1,
+        "order"          => "ASC",
+        "post_type"    => "highlights",
+    );
+
+    $highlights = new WP_Query($args);
+
+    $highlights = $highlights->get_posts();
+
+    $highlightPostsExist = count($highlights);
+
+    if($highlightPostsExist):
+
+        $count = 4;
+        foreach ($highlights as $highlight){
+            $highlightTitle = $highlight->post_title;
+            $highlightDescription = is_front_page() ? '' : $highlight->post_content;
+            $highlightID = $highlight->ID;
+            $highlightUrl= get_the_permalink($highlightID);
+            $highlightShape = get_field('shape_and_position', $highlightID);
+            $getImages = get_field('highlight_gallery', $highlightID);
+
+            $blockClass = ($highlightShape == 3) ? 'circle projects-grid__items__item--left' : ($highlightShape == 2 ? 'rectangle projects-grid__items__item--right' : 'rectangle projects-grid__items__item--left');
+            $blockShape = ($highlightShape == 3) ? 'circle' : 'rectangle';
+
+                $html .= '<div class="projects-grid__items__item clearfix '.$blockClass.' wow fadeInDownFixed" data-wow-delay="0.'.$count.'s">
+                              <div class="projects-grid__items__item__wrap projects-grid__items__item__wrap--'.$blockShape.' anim-container" data-base="10" data-multiplier="-2">
+                                  <div class="projects-grid__items__item__wrap__overlay">
+                                      <div class="table-center">
+                                          <div class="table-center__cell">
+                                              <div class="link-wrap">
+                                                  <a href="'.$highlightUrl.'">View</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5">'.$highlightTitle.'
+
+                                      <div class="projects-grid__items__item__title__excerpt">
+                                          <p class="intro">'.$highlightDescription.'
+                                      </div>
+                                  </h2>
+                                  <div class="projects-grid__items__item__carousel slick">';
+                ?>
+                <?php
+                foreach($getImages as $image){
+                    $html .= '<div class="projects-grid__items__item__carousel__slide slick-slide">
+                                          <img src="'.$image['highlight_images'].'" class="attachment-gallery_rectangle size-gallery_rectangle" alt="" />
+                                      </div>';
+                }
+                ?>
+                <?php
+                                  $html .= '</div>
+                              </div>
+                          </div>';
+
+            $count++;
+
+            if(is_front_page() && $count >= 7){
+                break;
+            }
         }
 
     endif;

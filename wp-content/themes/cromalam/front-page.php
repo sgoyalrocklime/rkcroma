@@ -12,7 +12,6 @@ get_header();
                         <span class="dot"></span>
                         <span class="dot"></span>
                         <span class="dot"></span>
-                        <span class="dot"></span>
                     </div>
                     <div class="slick hero-slider__carousel">
                         <?php
@@ -63,7 +62,7 @@ get_header();
                                 <h4 class="small-title"><?php echo get_theme_mod('about_us_heading'); ?></h4>
                                 <h2><?php echo get_theme_mod('about_us_title'); ?></h2>
                                 <p><?php echo get_theme_mod('about_us_content'); ?></p>
-                                <p><a href="<?php bloginfo('url'); ?>/about" class="btn block dark">More About Us</a></p>
+                                <p><a href="<?php bloginfo('url'); ?>/about" target="_blank" class="btn block dark">More About Us</a></p>
                             </article>
                         </div>
                     </div>
@@ -156,44 +155,11 @@ get_header();
                         <div class="container clearfix">
                             <h1 class="projects-grid__title">Highlights</h1>
                         </div>
-                        <a href="<?php echo site_url(); ?>/inspiration" class="projects-grid__filter__view-all">View All Highlights <span><span></span></span></a>
+                        <a href="<?php echo site_url(); ?>/highlights" class="projects-grid__filter__view-all">View All Highlights <span><span></span></span></a>
                     </div>
                     <div class="container clearfix">
                         <div class="projects-grid__items" id="ajnp-container">
-                            <div id="bedroom-section" class="projects-grid__items__item clearfix rectangle projects-grid__items__item--left wow fadeInDownFixed" data-wow-delay="0.4s">
-                                <div class="projects-grid__items__item__wrap projects-grid__items__item__wrap--rectangle anim-container" data-base="10" data-multiplier="-2">
-                                    <a href="#" class="full-link"></a>
-
-                                    <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5">Bedroom<div class="projects-grid__items__item__title__excerpt"><p class="intro">Scope of works: Croma Decorative Laminates were appointed ...</div></h2>
-                                    <div class="projects-grid__items__item__carousel slick">
-                                        <div class="projects-grid__items__item__carousel__slide slick-slide">
-                                            <img width="502" height="426" src="<?php echo get_stylesheet_directory_uri(); ?>/images/riverwalk-preview-502x426.jpg" class="attachment-gallery_rectangle size-gallery_rectangle" alt="" />						</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="kitchen-section" class="projects-grid__items__item clearfix rectangle projects-grid__items__item--right wow fadeInDownFixed" data-wow-delay="0.5s">
-                                <div class="projects-grid__items__item__wrap projects-grid__items__item__wrap--rectangle anim-container" data-base="10" data-multiplier="-2">
-                                    <a href="projects/battersea-dogs-cats-home/index.html" class="full-link"></a>
-
-                                    <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5" >Kitchen<div class="projects-grid__items__item__title__excerpt"><p class="intro">Battersea Dogs &amp; Cats Home Appointed by ...</div></h2>
-                                    <div class="projects-grid__items__item__carousel slick">
-                                        <div class="projects-grid__items__item__carousel__slide slick-slide">
-                                            <img width="625" height="426" src="<?php echo get_stylesheet_directory_uri(); ?>/images/battersea-preview.jpg" class="attachment-gallery_rectangle size-gallery_rectangle" alt="" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/battersea-preview.jpg 625w, <?php echo get_stylesheet_directory_uri(); ?>/images/battersea-preview-300x204.jpg 300w" sizes="(max-width: 625px) 100vw, 625px" />						</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="office-section" class="projects-grid__items__item clearfix circle projects-grid__items__item--left wow fadeInDownFixed" data-wow-delay="0.6s">
-                                <div class="projects-grid__items__item__wrap projects-grid__items__item__wrap--circle anim-container" data-base="10" data-multiplier="-2">
-                                    <a href="projects/bnp-paribas/index.html" class="full-link"></a>
-
-                                    <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5" >Office<div class="projects-grid__items__item__title__excerpt"><p class="intro">BNP Paribas Croma Decorative Laminates were appointed to ...</div></h2>
-                                    <div class="projects-grid__items__item__carousel slick">
-                                        <div class="projects-grid__items__item__carousel__slide slick-slide">
-                                            <img width="502" height="502" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Project-Preview-1.jpg" class="attachment-gallery_circle size-gallery_circle" alt="" sizes="(max-width: 502px) 100vw, 502px" />						</div>
-
-                                    </div>
-                                </div>
-                            </div>
+                            <?php echo do_shortcode('[cromalam-highlight-posts]'); ?>
                         </div>
                     </div>
                 </div>
@@ -212,14 +178,75 @@ get_header();
             </style>
 
             <!--icons iamge-->
-            <?php if(get_theme_mod('part6_visibility')){ ?>
+                <?php if(get_theme_mod('part6_visibility')){ ?>
                 <div class="layout--news-grid news-grid">
                     <div class="news-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.2s">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons-full.jpg">
+                        <div class="demo">
+                            <div class="item">
+                                <ul id="content-slider" class="content-slider">
+                                    <?php
+                                    $args = array(
+                                        "posts_per_page" => -1,
+                                        "order"          => "ASC",
+                                        "post_type"    => "partners",
+                                    );
+
+                                    $partners = new WP_Query($args);
+
+                                    $partners = $partners->get_posts();
+
+                                    if(count($partners)):
+                                        foreach ($partners as $partner){
+                                            $partnerID = $partner->ID;
+                                            $partnerImage = get_the_post_thumbnail_url($partnerID, 'large');
+
+                                            echo '<li><img src="'.$partnerImage.'"></li>';
+                                        }
+                                    endif;
+                                    ?>
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            <?php } ?>
 
+                    <style>     ul{
+                            list-style: none outside none;
+                            padding-left: 0;
+                            margin: 0;
+                        }
+/*                        .demo .item{
+                            margin-bottom: 60px;
+                        }*/
+                        .content-slider li{
+                            /*background-color: #ed3020;*/
+                            text-align: center;
+                            color: #FFF;
+                        }
+                        .content-slider h3 {
+                            margin: 0;
+                            padding: 70px 0;
+                        }
+                        .lSPager.lSpg {
+                            display: none;
+                        }
+                        .item {
+                            margin: 0 auto;
+                            width: 90%;
+                        }
+                        .demo{
+                            width: 100%;
+                        }</style>
+                <?php } ?>
+    <script>
+            jQuery.noConflict();
+            jQuery(document).ready(function() {
+            jQuery("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+        });</script>
         </section>
     </main>
 
