@@ -32,3 +32,9 @@
     position: relative!important;
     width: 100%!important;
 }}
+
+#file-field-carrer_contact{
+    opacity: 0;
+    position: absolute;
+    right: 25%;
+}
