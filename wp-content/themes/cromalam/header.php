@@ -75,8 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class="site-menu__half site-menu__half--project screen-height" style="background-size: cover; background-image: url('
-            <?php echo get_field('menu_image', get_the_ID()); ?>');">
+            <div class="site-menu__half site-menu__half--project screen-height" style="background-size: cover; background-image: url(<?php echo get_field('menu_image', get_the_ID()); ?>);">
                 <!-- <a href="projects/amex/index.html" class="btn site-menu__half__project-link" target="_parent"><span></span>View Project</a> -->
             </div>
         </div>
