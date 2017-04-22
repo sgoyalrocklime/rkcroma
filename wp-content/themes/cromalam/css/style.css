@@ -13,6 +13,8 @@
     float: left!important;
     height: 100px!important;
     width: 200px!important;
+     left: 2%;
+     position: absolute;
 }
 .site-footer__logo {
     /*background-image: url("images/footer-logo.png");*/

@@ -82,7 +82,7 @@
         </div>
         <!--Search field-->
         <div id="site-search" class="site-search">
-            <a href="#" id="close-search" class="site-search__close no-smoothState"></a>
+            <a href="#" id="close-search" class="seasite-rch__close no-smoothState"></a>
             <div class="container clearfix">
                 <div class="site-search__container">
                     <h4 class="small-title">What are you looking for?</h4>

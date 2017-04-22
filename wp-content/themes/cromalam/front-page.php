@@ -30,14 +30,12 @@ get_header();
                             foreach ($slides as $slide){
                                 $slideDescription = $slide->post_content;
                                 $slideID = $slide->ID;
-                                $slideExcerpt= $slide->post_excerpt;
                                 $slideImage = get_the_post_thumbnail_url($slideID);
 
                                 echo '<div class="hero-slider__slide slick-slide"><div class="hero-slider__slide__bg" style="background-image: url('.$slideImage.');"></div>
-                            <a href="#" class="hero-slider__arrow"></a>
                             <div class="container clearfix">
                                 <article class="hero-slider__slide__content hentry clearfix">
-                                    '.$slideDescription.$slideExcerpt.'
+                                    '.$slideDescription.'
                                 </article>
                             </div>
                         </div>';

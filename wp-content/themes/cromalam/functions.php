@@ -19,9 +19,11 @@ function cromalam_init()
     cromalam_post_type_for_events();
     cromalam_post_type_for_partners();
     cromalam_post_type_for_highlights();
+    cromalam_post_type_for_ecatalouge();
 
     add_shortcode('cromalam-all-events', 'cromalam_get_all_events');
     add_shortcode('cromalam-highlight-posts', 'cromalam_get_all_highlight_posts');
+    add_shortcode('cromalam-ecatalouge-posts', 'cromalam_get_all_ecatalouge_posts');
 
     add_theme_support('custom-logo');
     add_post_type_support('page', 'excerpt');
@@ -338,6 +340,16 @@ function cromalam_post_type_for_highlights(){
     register_post_type( 'highlights' , $args );
 }
 
+// cromalam post type for ecatalouge
+function cromalam_post_type_for_ecatalouge(){
+    $args = array(
+        'labels' => array('name'=> 'Ecatalouge'),
+        'public' => true,
+        'supports' => array('title', 'editor', 'thumbnail', 'revisions', 'excerpt', 'page-attributes')
+    );
+    register_post_type( 'ecatalouge' , $args );
+}
+
 // cromalam_get_all_events
 function cromalam_get_all_events(){
     ob_start();
@@ -418,11 +430,12 @@ function cromalam_get_all_highlight_posts(){
             $highlightUrl= get_the_permalink($highlightID);
             $highlightShape = get_field('shape_and_position', $highlightID);
             $getImages = get_field('highlight_gallery', $highlightID);
+            $highlightSectionId = strtolower($highlightTitle);
 
             $blockClass = ($highlightShape == 3) ? 'circle projects-grid__items__item--left' : ($highlightShape == 2 ? 'rectangle projects-grid__items__item--right' : 'rectangle projects-grid__items__item--left');
             $blockShape = ($highlightShape == 3) ? 'circle' : 'rectangle';
 
-                $html .= '<div class="projects-grid__items__item clearfix '.$blockClass.' wow fadeInDownFixed" data-wow-delay="0.'.$count.'s">
+                $html .= '<div id="'.$highlightSectionId.'" class="projects-grid__items__item clearfix '.$blockClass.' wow fadeInDownFixed" data-wow-delay="0.'.$count.'s">
                               <div class="projects-grid__items__item__wrap projects-grid__items__item__wrap--'.$blockShape.' anim-container" data-base="10" data-multiplier="-2">
                                   <div class="projects-grid__items__item__wrap__overlay">
                                       <div class="table-center">
@@ -458,6 +471,62 @@ function cromalam_get_all_highlight_posts(){
             if(is_front_page() && $count >= 7){
                 break;
             }
+        }
+
+    endif;
+
+    return $html;
+
+    ob_clean();
+}
+
+// cromalam_get_all_ecatalouge_posts
+function cromalam_get_all_ecatalouge_posts(){
+    ob_start();
+
+    $html = '';
+
+    $args = array(
+        "posts_per_page" => -1,
+        "order"          => "ASC",
+        "post_type"    => "ecatalouge",
+    );
+
+    $ecatalouges = new WP_Query($args);
+
+    $ecatalouges = $ecatalouges->get_posts();
+
+    if(count($ecatalouges)):
+
+        $count = 5;
+        foreach ($ecatalouges as $ecatalouge){
+            $ecatalougeTitle = $ecatalouge->post_title;
+            $ecatalougeID = $ecatalouge->ID;
+            $ecatalougeImage = get_the_post_thumbnail_url($ecatalougeID);
+            $ecatalougeUrl = get_field('ecatalouge_url', $ecatalougeID);
+            $position = ($count % 2 == 0) ? 'right' : 'left';
+
+            $html .= '<div class="projects-grid__items__item clearfix rectangle projects-grid__items__item--'.$position.' wow fadeInDownFixed" data-wow-delay="0.'.$count.'s">
+                              <div class="projects-grid__items__item__wrap projects-grid__items__item__wrap--rectangle anim-container" data-base="10" data-multiplier="-2">
+                                  <a href="battersea-dogs-cats-home/index.html" class="full-link"></a>
+                                  <div class="projects-grid__items__item__wrap__overlay">
+                                      <div class="table-center">
+                                          <div class="table-center__cell">
+                                              <div class="link-wrap">
+                                                  <a href="'.$ecatalougeUrl.'">View</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5">'.$ecatalougeTitle.'</h2>
+                                  <div class="projects-grid__items__item__carousel slick">
+                                      <div class="projects-grid__items__item__carousel__slide slick-slide">
+                                          <img width="502" height="502" src="'.$ecatalougeImage.'" class="attachment-gallery_circle size-gallery_circle" alt="" sizes="(max-width: 502px) 100vw, 502px" />
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>';
+            $count++;
         }
 
     endif;
