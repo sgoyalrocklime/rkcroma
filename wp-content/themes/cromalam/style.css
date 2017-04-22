@@ -3,3 +3,11 @@ Theme Name: Cromalam
 Theme URI: http://www.rocklime.com/
 Author: Rocklime
 */
+
+#menu-main-menu > li {
+    float: left;
+    width: 100%;
+}
+.slick-dots li:last-child {
+    display: none!important;
+}
