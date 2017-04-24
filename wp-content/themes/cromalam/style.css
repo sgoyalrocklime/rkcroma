@@ -11,3 +11,75 @@ Author: Rocklime
 .slick-dots li:last-child {
     display: none!important;
 }
+
+.large-image-slider__carousel .slick-arrow.slick-next:hover{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.large-image-slider__carousel .slick-arrow.slick-prev:hover{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.large-image-slider__carousel .slick-arrow.slick-next{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.large-image-slider__carousel .slick-arrow.slick-prev{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.projects-grid__items__item__carousel .slick-arrow.slick-next{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.projects-grid__items__item__carousel .slick-arrow.slick-prev{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.projects-grid__items__item__carousel .slick-arrow.slick-next:hover{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.projects-grid__items__item__carousel .slick-arrow.slick-prev:hover{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.form-slider .slick-arrow.slick-next{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.form-slider .slick-arrow.slick-prev{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.form-slider .slick-arrow.slick-next:hover{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.form-slider .slick-arrow.slick-prev:hover{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mapclass {
+    width: 40%!important;
+}
+.addressclass {
+    width: 60%!important;
+}
+.article-address {
+    float: left;
+    margin-bottom: 40px;
+    width: 50%;
+}
