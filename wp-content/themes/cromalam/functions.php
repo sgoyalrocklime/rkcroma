@@ -383,7 +383,7 @@ function cromalam_get_all_events(){
 										  <figure class="post-item__double__image">
 											  <img width="983" height="790" src="'.$eventImage.'" class="attachment-grid_double size-grid_double wp-post-image" alt="" />
 											  <div class="meta">
-												  <a href="category/stortford/index.html">'.$eventTitle.'</a>
+												  <a href="'.$eventUrl.'">'.$eventTitle.'</a>
 												  <span>'.$eventDate.'</span>
 											  </div>
 											  <h2>'.$eventDescription.'</h2>

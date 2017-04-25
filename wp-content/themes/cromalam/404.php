@@ -3,7 +3,7 @@ get_header();
 
 ?>
 
-    <span>Page not found.</span>
+    <div style="clear: both;"><span>Page not found.</span></div>
 
 <?php
 

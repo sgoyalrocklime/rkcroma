@@ -81,28 +81,15 @@
         </div>
         <!--Search field-->
         <div id="site-search" class="site-search">
-            <a href="#" id="close-search" class="seasite-rch__close no-smoothState"></a>
+            <a href="#" id="close-search" class="site-search__close no-smoothState"></a>
             <div class="container clearfix">
                 <div class="site-search__container">
                     <h4 class="small-title">What are you looking for?</h4>
-                    <form role="search" method="get" class="search-form" action="#">
-                        <input type="search" class="search-field" placeholder="Enter your search here" value="" name="s">
-                        <button class="search-submit btn">Find</button>
+                    <?php $unique_id = esc_attr( uniqid( 'search-form-' ) ); ?>
+                    <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                        <input type="search" id="<?php echo $unique_id; ?>" class="search-field" placeholder="Enter your search here" value="<?php echo get_search_query(); ?>" name="s" required />
+                        <button type="submit" class="search-submit btn">Find</button>
                     </form>
-                    <div class="site-search__key-info">
-                        <h4>Key Information</h4>
-                        <ul>
-                            <li>
-                                <a href="#" target="_parent">Services</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_parent">Parkrose</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_parent">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
