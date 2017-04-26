@@ -5,12 +5,12 @@
         </a>
 
         <div class="site-footer__columns">
-            <div class="site-footer__columns__column wow fadeInDownFixed" data-wow-delay="0.3s">
+            <div class="site-footer__columns__column wow fadeInDownFixed footer-width" data-wow-delay="0.3s">
                 <div class="site-footer__columns__column__inner text">
                     <?php echo get_theme_mod('contact_address'); ?>
                 </div>
             </div>
-            <div class="site-footer__columns__column wow fadeInDownFixed" data-wow-delay="0.6s">
+            <div class="site-footer__columns__column wow fadeInDownFixed footer-about" data-wow-delay="0.6s">
                 <div class="site-footer__columns__column__inner">
                     <?php wp_nav_menu( array(
                         'theme_location' => 'footer',

@@ -26,10 +26,10 @@ get_header(); ?>
 										  <figure class="post-item__double__image">
 											  <img width="983" height="790" src="'.$postImage.'" class="attachment-grid_double size-grid_double wp-post-image" alt="" />
 											  <div class="meta">
-												  <a href="'.$postUrl.'">'.get_the_title().'</a>
+												  <a href="javascript:void(0);">'.get_the_title().'</a>
 											  </div>
 											  <h2>'.get_the_content().'</h2>
-											  <a href="'.$postUrl.'" class="full-link"></a>
+											  <a href="javascript:void(0);" class="full-link"></a>
 										  </figure>
 									  </div>
 								  </div>
