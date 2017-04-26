@@ -18,6 +18,7 @@ get_header(); ?>
                             $postID = get_the_ID();
                             $postUrl= get_the_permalink($postID);
                             $postImage = get_the_post_thumbnail_url($postID);
+                            $postImage = $postImage ? $postImage : 'https://murrowstratcomm.files.wordpress.com/2014/01/blank-gray5.jpg';
 
                         echo '<div class="news-grid__items__item news-grid__items__item--double wow fadeInDownFixed" data-wow-delay="1.2s">
 							  <div class="news-grid__items__item__inner">
@@ -26,10 +27,9 @@ get_header(); ?>
 										  <figure class="post-item__double__image">
 											  <img width="983" height="790" src="'.$postImage.'" class="attachment-grid_double size-grid_double wp-post-image" alt="" />
 											  <div class="meta">
-												  <a href="javascript:void(0);">'.get_the_title().'</a>
+												  <a href="'.$postUrl.'">'.get_the_title().'</a>
 											  </div>
-											  <h2>'.get_the_content().'</h2>
-											  <a href="javascript:void(0);" class="full-link"></a>
+											  <a href="'.$postUrl.'" class="full-link"></a>
 										  </figure>
 									  </div>
 								  </div>
