@@ -31,13 +31,11 @@
 </div>
 
 
-<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.min.js'></script>
-<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/ajax-jquery.min.js'></script>
-<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/lightslider.js'></script>
-<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/scripts.min.js'></script>
-<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/main.min.js'></script>
-<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/common.js'></script>
-
+<script type='text/javascript'  src='<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.min.js'></script>
+<script type='text/javascript'  src='<?php echo get_stylesheet_directory_uri(); ?>/js/ajax-jquery.min.js'></script>
+<script type='text/javascript'  src='<?php echo get_stylesheet_directory_uri(); ?>/js/lightslider.js'></script>
+<script type='text/javascript'  src='<?php echo get_stylesheet_directory_uri(); ?>/js/scripts.min.js'></script>
+<script type='text/javascript'  src='<?php echo get_stylesheet_directory_uri(); ?>/js/main.min.js'></script>
 <script>jQuery(document).ready(function() {window.afterPreloader();});</script>
 
 <script>

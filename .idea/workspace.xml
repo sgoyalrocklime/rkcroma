@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8260e4-9a4b-4968-8d67-5c3d35c033a4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/assets/css/wp-gmap-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/assets/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/assets/js/geo_based_map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/assets/js/srm_gmap_loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/gmap-embed.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/gmap_icon_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/default.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/gmap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/shortcodes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/widget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/wpgmap_create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/wpgmap_edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/wpgmap_list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/wpgmap_popup_content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/includes/wpgmap_settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/languages/default.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/languages/default.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/languages/gmap-embed-bn_BD.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/languages/gmap-embed-bn_BD.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/languages/gmap-embed-de_DE.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/languages/gmap-embed-de_DE.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gmap-embed/srm_gmap_embed.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/04/amex-main.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/04/amex-main.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/search.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,67 +31,10 @@
     <favorites_list name="cromalam" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="gallery-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/gallery-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding>
-                <marker date="1493201197947" expanded="true" signature="1394:1806" ph="..." />
-                <marker date="1493201197947" expanded="true" signature="1438:1477" ph="..." />
-                <marker date="1493201197947" expanded="true" signature="1545:1775" ph="..." />
-                <marker date="1493201197947" expanded="true" signature="1639:1740" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-              <folding>
-                <marker date="1493200754928" expanded="true" signature="1135:1731" ph="..." />
-                <marker date="1493200754928" expanded="true" signature="1188:1716" ph="..." />
-                <marker date="1493200754928" expanded="true" signature="1238:1700" ph="..." />
-                <marker date="1493200754928" expanded="true" signature="1281:1683" ph="..." />
-                <marker date="1493200754928" expanded="true" signature="1335:1665" ph="..." />
-                <marker date="1493200754928" expanded="true" signature="1503:1527" ph="..." />
-                <marker date="1493200754928" expanded="true" signature="1503:1583" ph="..." />
-                <marker date="1493200754928" expanded="true" signature="1503:1584" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#close-search</find>
-      <find>seasite-rch__close</find>
       <find>close-search</find>
       <find>no-smoothState</find>
       <find>ite-search__close</find>
@@ -140,6 +63,8 @@
       <find>$postUrl</find>
       <find>li</find>
       <find>dot</find>
+      <find>jQuery(&quot;#content-slider&quot;).lightSlider({</find>
+      <find>lightslider</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -162,7 +87,6 @@
       <list>
         <option value="$USER_HOME$/Downloads/croma/index.html" />
         <option value="$PROJECT_DIR$/../insurance/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/main.min.js" />
         <option value="$USER_HOME$/Downloads/croma/contact/index.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/careers.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/wonderplugincarousel.js" />
@@ -177,7 +101,6 @@
         <option value="$USER_HOME$/Downloads/croma/careers/index.html" />
         <option value="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input/google-map.js" />
         <option value="$USER_HOME$/Downloads/croma/csr/index.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/ajax-jquery.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/ecatalouge-template.php" />
         <option value="$USER_HOME$/Downloads/croma/inspiration/inspiration.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/scripts.min.js" />
@@ -195,9 +118,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/css/styles.min8a54.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/css/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/search.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/ajax-jquery.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/lightslider.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/main.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/modernizr.min.js" />
       </list>
     </option>
   </component>
@@ -229,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -243,62 +169,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cromalam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cromalam" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cromalam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cromalam" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cromalam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cromalam" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cromalam" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,7 +287,9 @@
       <workItem from="1493110939373" duration="1234000" />
       <workItem from="1493112708471" duration="11393000" />
       <workItem from="1493185833230" duration="5023000" />
-      <workItem from="1493195313726" duration="4887000" />
+      <workItem from="1493195313726" duration="5035000" />
+      <workItem from="1493203589170" duration="6087000" />
+      <workItem from="1493273685821" duration="6964000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1492516979173</created>
@@ -427,7 +302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181204000" />
+    <option name="totallyTimeSpent" value="194403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,7 +317,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -472,6 +347,7 @@
     <MESSAGE value="add gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
+  <component name="WordPressConfiguration" doNotAskAgain="true" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
@@ -479,44 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-includes/functions.wp-styles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6664">
-          <caret line="402" column="9" lean-forward="false" selection-start-line="402" selection-start-column="9" selection-end-line="402" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/single.php" />
-    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="1930" column="39" lean-forward="false" selection-start-line="1930" selection-start-column="39" selection-end-line="1930" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page-careers.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/page-career.php" />
-    <entry file="file://$USER_HOME$/Downloads/croma/careers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="311" column="26" lean-forward="false" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -559,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/ajax-jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1278" lean-forward="false" selection-start-line="1" selection-start-column="1278" selection-end-line="1" selection-end-column="1278" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/css/forms-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23239">
@@ -585,13 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="19656" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/scripts.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65059">
-          <caret line="3827" column="34" lean-forward="false" selection-start-line="3827" selection-start-column="34" selection-end-line="3827" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -659,14 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="385" column="72" lean-forward="false" selection-start-line="385" selection-start-column="72" selection-end-line="385" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/highlights-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -725,26 +541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="4712" column="1" lean-forward="true" selection-start-line="4712" selection-start-column="1" selection-end-line="4712" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/lightslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -777,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/gallery-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -794,17 +587,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="391">
+          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding>
-            <marker date="1493200754928" expanded="true" signature="1135:1731" ph="..." />
-            <marker date="1493200754928" expanded="true" signature="1188:1716" ph="..." />
-            <marker date="1493200754928" expanded="true" signature="1238:1700" ph="..." />
-            <marker date="1493200754928" expanded="true" signature="1281:1683" ph="..." />
-            <marker date="1493200754928" expanded="true" signature="1335:1665" ph="..." />
-            <marker date="1493200754928" expanded="true" signature="1503:1527" ph="..." />
-            <marker date="1493200754928" expanded="true" signature="1503:1583" ph="..." />
-            <marker date="1493200754928" expanded="true" signature="1503:1584" ph="..." />
+            <marker date="1493200756000" expanded="true" signature="1135:1731" ph="..." />
+            <marker date="1493200756000" expanded="true" signature="1188:1716" ph="..." />
+            <marker date="1493200756000" expanded="true" signature="1238:1700" ph="..." />
+            <marker date="1493200756000" expanded="true" signature="1281:1683" ph="..." />
+            <marker date="1493200756000" expanded="true" signature="1335:1665" ph="..." />
+            <marker date="1493200756000" expanded="true" signature="1503:1527" ph="..." />
+            <marker date="1493200756000" expanded="true" signature="1503:1583" ph="..." />
+            <marker date="1493200756000" expanded="true" signature="1503:1584" ph="..." />
           </folding>
         </state>
       </provider>
@@ -817,15 +610,142 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/vfbgnhkngbfvdcxcvghj/css/lightslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/vfbgnhkngbfvdcxcvghj/css/frontend_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="385" column="72" lean-forward="false" selection-start-line="385" selection-start-column="72" selection-end-line="385" selection-end-column="72" />
+          <folding>
+            <marker date="1493102622000" expanded="true" signature="12692:13373" ph="..." />
+            <marker date="1493102622000" expanded="true" signature="12745:13358" ph="..." />
+            <marker date="1493102622000" expanded="true" signature="12795:13342" ph="..." />
+            <marker date="1493102622000" expanded="true" signature="12838:13325" ph="..." />
+            <marker date="1493102622000" expanded="true" signature="12892:13307" ph="..." />
+            <marker date="1493102622000" expanded="true" signature="13061:13181" ph="..." />
+            <marker date="1493102622000" expanded="true" signature="16282:16481" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/d/main.min8a54.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/d/styles.min8a54.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/d/lightslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/lightslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2941">
+          <caret line="227" column="2" lean-forward="false" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="353">
+          <caret line="371" column="12" lean-forward="false" selection-start-line="371" selection-start-column="12" selection-end-line="374" selection-end-column="15" />
           <folding>
-            <marker date="1493201197947" expanded="true" signature="1394:1806" ph="..." />
-            <marker date="1493201197947" expanded="true" signature="1438:1477" ph="..." />
-            <marker date="1493201197947" expanded="true" signature="1545:1775" ph="..." />
-            <marker date="1493201197947" expanded="true" signature="1639:1740" ph="..." />
+            <marker date="1493278818000" expanded="true" signature="1394:1806" ph="..." />
+            <marker date="1493278818000" expanded="true" signature="1438:1477" ph="..." />
+            <marker date="1493278818000" expanded="true" signature="1545:1775" ph="..." />
+            <marker date="1493278818000" expanded="true" signature="1639:1740" ph="..." />
+            <marker date="1493278818000" expanded="true" signature="11503:11965" ph="..." />
+            <marker date="1493278818000" expanded="true" signature="11533:11907" ph="..." />
+            <marker date="1493278818000" expanded="true" signature="11607:11737" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/lightslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="1139" column="11" lean-forward="false" selection-start-line="1139" selection-start-column="11" selection-end-line="1139" selection-end-column="11" />
+          <folding>
+            <marker date="1492589216000" expanded="true" signature="15211:15305" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="680" column="14" lean-forward="false" selection-start-line="680" selection-start-column="14" selection-end-line="680" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/modernizr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="2" column="20298" lean-forward="false" selection-start-line="2" selection-start-column="20298" selection-end-line="2" selection-end-column="20298" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/scripts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109064">
+          <caret line="3827" column="34" lean-forward="false" selection-start-line="3827" selection-start-column="34" selection-end-line="3827" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/ajax-jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1513">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
