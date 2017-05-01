@@ -160,3 +160,54 @@
         right: 0!important;
     }
 }
+
+.form_box {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .form_box {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .form_box {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .form_box {
+    width: 1170px;
+  }
+}
+
+.sectn{
+  position: relative;
+  float: left;
+  width: 33.33333333%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.sec_mrgn{
+    margin-left: 16.7%;
+}
+
+.btn_bg{
+    padding:20px; 
+    background:#ccc; 
+    border:0 none;
+    border-radius: 150%;
+    background-image: url("../images/hero-arrow-right.svg");
+    background-color: #38393d;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 7px;
+    width: 56px;
+    height: 56px;
+}
+.btn_bg:hover{
+    background-color: #ff0000;
+    transition: background-color 0.35s;
+}

@@ -37,7 +37,7 @@ function cromalam_enqueue_styles()
     wp_enqueue_style('main-style', get_stylesheet_directory_uri() . '/css/style.css');
     wp_enqueue_style('main-min', get_stylesheet_directory_uri() . '/css/main.min8a54.css');
     wp_enqueue_style('style-min', get_stylesheet_directory_uri() . '/css/styles.min8a54.css');
-     wp_enqueue_style('lightslider', get_stylesheet_directory_uri() . '/css/lightslider.css');
+    wp_enqueue_style('lightslider', get_stylesheet_directory_uri() . '/css/lightslider.css');
 }
 
 // Register menus
@@ -425,7 +425,7 @@ function cromalam_get_all_highlight_posts(){
         $count = 4;
         foreach ($highlights as $highlight){
             $highlightTitle = $highlight->post_title;
-            $highlightDescription = is_front_page() ? '' : $highlight->post_content;
+            $highlightDescription = '';
             $highlightID = $highlight->ID;
             $highlightUrl= get_the_permalink($highlightID);
             $highlightShape = get_field('shape_and_position', $highlightID);
@@ -521,7 +521,7 @@ function cromalam_get_all_ecatalouge_posts(){
                                   <h2 class="projects-grid__items__item__title anim-container" data-base="20" data-multiplier="4.5">'.$ecatalougeTitle.'</h2>
                                   <div class="projects-grid__items__item__carousel slick">
                                       <div class="projects-grid__items__item__carousel__slide slick-slide">
-                                          <img width="502" height="502" src="'.$ecatalougeImage.'" class="attachment-gallery_circle size-gallery_circle" alt="" sizes="(max-width: 502px) 100vw, 502px" />
+                                          <img width="300" style="margin: 0px auto;" src="'.$ecatalougeImage.'" class="attachment-gallery_circle size-gallery_circle" />
                                       </div>
                                   </div>
                               </div>

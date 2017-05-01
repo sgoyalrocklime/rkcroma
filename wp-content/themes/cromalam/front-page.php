@@ -183,11 +183,42 @@ get_header();
                 <?php if(get_theme_mod('part6_visibility')){ ?>
                 <div class="layout--news-grid news-grid">
                     <div class="news-grid__filter clearfix wow fadeInDownFixed" data-wow-delay="0.2s">
-                        <div class="demo">
+
+                        <!-- Without slider code  -->
+                        <ul id="partners" class="partners">
+                            <?php
+                            $args = array(
+                                "posts_per_page" => -1,
+                                "order"          => "ASC",
+                                "post_type"    => "partners",
+                            );
+
+                            $partners = new WP_Query($args);
+
+                            $partners = $partners->get_posts();
+
+                            if(count($partners)):
+                                foreach ($partners as $partner){
+                                    $partnerID = $partner->ID;
+                                    $partnerImage = get_the_post_thumbnail_url($partnerID, 'large');
+
+                                    echo '<li>  <div class="product-swatch">
+                                                            <div style="background-image: url('.$partnerImage.');background-position: center bottom;background-size: contain;background-repeat: no-repeat;"></div>
+                                                            <span>'.$partner->post_content.'</span>
+                                                        </div>
+                                                    </li>';
+                                }
+                            endif;
+                            ?>
+                        </ul>
+                        <!--End-->
+
+
+                        <!--<div class="demo">
                             <div class="item">
                                 <ul id="content-slider" class="content-slider">
                                     <?php
-                                    $args = array(
+/*                                    $args = array(
                                         "posts_per_page" => -1,
                                         "order"          => "ASC",
                                         "post_type"    => "partners",
@@ -209,171 +240,23 @@ get_header();
                                                     </li>';
                                         }
                                     endif;
-                                    ?>
+                                    */?>
                                 </ul>
                             </div>
 
-                        </div>
+                        </div>-->
                     </div>
                 </div>
 
-                    <style>     ul{
-                            list-style: none outside none;
-                            padding-left: 0;
-                            margin: 0;
-                        }
-/*                        .demo .item{
-                            margin-bottom: 60px;
-                        }*/
-                        .content-slider li{
-                            /*background-color: #ed3020;*/
-                            text-align: center;
-                            color: #FFF;
-                        }
-                        .content-slider h3 {
-                            margin: 0;
-                            padding: 70px 0;
-                        }
-                        .lSPager.lSpg {
-                            display: none;
-                        }
-                        .item {
-                            margin: 0 auto;
-                            width: 90%;
-                        }
-                        .demo{
-                            width: 100%;
-                        }
-
-                    /*Effect Style Start*/
-
-                        .product-swatch {
-                            width: 100%;
-                            -webkit-perspective: 1000px;
-                            -moz-perspective: 1000px;
-                            perspective: 1000px;
-                        }
-
-                        .product-swatch div {
-                            -webkit-transform-style: preserve-3d;
-                            -moz-transform-style: preserve-3d;
-                            -o-transform-style: preserve-3d;
-                            transform-style: preserve-3d;
-                            -webkit-transition: all 0.5s;
-                            -moz-transition: all 0.5s;
-                            -o-transition: all 0.5s;
-                            transition: all 0.5s;
-                            position: relative;
-                            z-index: 5;
-                        }
-                        .product-swatch div::before {
-                            content: '';
-                            position: absolute;
-                            top: -35px;
-                            left: 0;
-                            width: 100%;
-                            height: 100%;
-                            background: rgba(0, 0, 0, 0.5);
-                            box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
-                            -webkit-transition: all 0.5s;
-                            -moz-transition: all 0.5s;
-                            -o-transition: all 0.5s;
-                            transition: all 0.5s;
-                            opacity: 0.15;
-                            -webkit-transform: rotateX(95deg) translateZ(-80px) scale(0.75);
-                            -moz-transform: rotateX(95deg) translateZ(-80px) scale(0.75);
-                            -o-transform: rotateX(95deg) translateZ(-80px) scale(0.75);
-                            transform: rotateX(95deg) translateZ(-80px) scale(0.75);
-                            -webkit-transform-origin: bottom;
-                            -moz-transform-origin: bottom;
-                            -o-transform-origin: bottom;
-                            transform-origin: bottom;
-                        }
-                        .product-swatch div::after {
-                            content: '';
-                            position: absolute;
-                            left: 0;
-                            bottom: 0;
-                            width: 100%;
-                            height: 13px;
-                            background: inherit;
-                            background-size: cover, cover;
-                            background-position: bottom;
-                            -webkit-transform: rotateX(90deg);
-                            -moz-transform: rotateX(90deg);
-                            -o-transform: rotateX(90deg);
-                            transform: rotateX(90deg);
-                            -webkit-transform-origin: bottom;
-                            -moz-transform-origin: bottom;
-                            -o-transform-origin: bottom;
-                            transform-origin: bottom;
-                        }
-                        .product-swatch div {
-                            height: 300px;
-                            position: relative;
-                            bottom: 40px;
-                        }
-                        .product-swatch:hover div::before {
-                            opacity: 1;
-                            box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
-                            -webkit-transform: rotateX(0) translateZ(-60px) scale(0.85);
-                            -moz-transform: rotateX(0) translateZ(-60px) scale(0.85);
-                            -o-transform: rotateX(0) translateZ(-60px) scale(0.85);
-                            transform: rotateX(0) translateZ(-60px) scale(0.85);
-                        }
-                        .product-swatch div {
-                            display: block;
-                            width: 100%;
-                            background-size: cover;
-                        }
-                        .product-swatch span {
-                            color: #000;
-                            font-size: 12px;
-                            text-align: center;
-                        }
-                        .product-swatch span {
-                            position: absolute;
-                            width: 70%;
-                            top: 85px;
-                            left: 50%;
-                            margin-left: -35%;
-                            z-index: 2;
-                        }
-
-
-
-                       .product-swatch:hover div {
-                            -webkit-transform: rotateX(80deg);
-                            -moz-transform: rotateX(80deg);
-                            -o-transform: rotateX(80deg);
-                            transform: rotateX(80deg);
-                            -webkit-transform-origin: bottom;
-                            -moz-transform-origin: bottom;
-                            -o-transform-origin: bottom;
-                            transform-origin: bottom;
-                            perspective: 1000px;
-                            -webkit-perspective: 1000px;
-                            -moz-perspective: 1000px;
-                            -o-perspective: 1000px;
-
-                        }
-
-
-                        /*Effect Style Ends*/
-
-
-
-
-                    </style>
                 <?php } ?>
     <script>
-            jQuery.noConflict();
+/*            jQuery.noConflict();
             jQuery(document).ready(function() {
             jQuery("#content-slider").lightSlider({
                 loop:true,
                 keyPress:true
             });
-        });</script>
+        });*/</script>
         </section>
     </main>
 

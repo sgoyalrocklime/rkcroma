@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8260e4-9a4b-4968-8d67-5c3d35c033a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/04/amex-main.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/04/amex-main.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/gallery-template.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/gallery-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +40,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>close-search</find>
-      <find>no-smoothState</find>
       <find>ite-search__close</find>
       <find>id=&quot;close-search&quot;</find>
       <find>&lt;/div&gt;</find>
@@ -65,6 +68,8 @@
       <find>dot</find>
       <find>jQuery(&quot;#content-slider&quot;).lightSlider({</find>
       <find>lightslider</find>
+      <find>logo</find>
+      <find>l</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -104,10 +109,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/ecatalouge-template.php" />
         <option value="$USER_HOME$/Downloads/croma/inspiration/inspiration.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/scripts.min.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/index.php" />
         <option value="$USER_HOME$/Downloads/croma/events/events.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/header.php" />
         <option value="$USER_HOME$/Downloads/croma/about/index.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/abc.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/404.php" />
@@ -125,6 +128,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/lightslider.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/main.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/modernizr.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cromalam/header.php" />
+        <option value="$USER_HOME$/Downloads/croma/ecatalouge/index.html" />
+        <option value="$USER_HOME$/Downloads/cntact (2).html" />
       </list>
     </option>
   </component>
@@ -157,6 +164,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,13 +179,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="C:/My Web Sites/Climber" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../insurance" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -289,7 +296,14 @@
       <workItem from="1493185833230" duration="5023000" />
       <workItem from="1493195313726" duration="5035000" />
       <workItem from="1493203589170" duration="6087000" />
-      <workItem from="1493273685821" duration="6964000" />
+      <workItem from="1493273685821" duration="7105000" />
+      <workItem from="1493286136491" duration="650000" />
+      <workItem from="1493290657924" duration="1201000" />
+      <workItem from="1493355620337" duration="611000" />
+      <workItem from="1493367147031" duration="596000" />
+      <workItem from="1493376498674" duration="2051000" />
+      <workItem from="1493441935793" duration="7628000" />
+      <workItem from="1493614644373" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1492516979173</created>
@@ -302,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194403000" />
+    <option name="totallyTimeSpent" value="208000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,11 +331,11 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -336,6 +350,26 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5499182" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -355,48 +389,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15646" lean-forward="false" selection-start-line="0" selection-start-column="15646" selection-end-line="0" selection-end-column="15646" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/field-group.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/js/input/google-map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="112" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="565" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/croma/csr/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="161" column="8" lean-forward="true" selection-start-line="161" selection-start-column="8" selection-end-line="165" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/css/forms-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23239">
@@ -442,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="228" column="16" lean-forward="false" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -479,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,15 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,35 +508,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/My Web Sites/Climber/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/My Web Sites/Climber/www.climber.io/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="4712" column="1" lean-forward="true" selection-start-line="4712" selection-start-column="1" selection-end-line="4712" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/My Web Sites/Climber/index.html" />
+    <entry file="file://C:/My Web Sites/Climber/www.climber.io/index.html" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/styles.min8a54.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -581,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,62 +542,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding>
-            <marker date="1493200756000" expanded="true" signature="1135:1731" ph="..." />
-            <marker date="1493200756000" expanded="true" signature="1188:1716" ph="..." />
-            <marker date="1493200756000" expanded="true" signature="1238:1700" ph="..." />
-            <marker date="1493200756000" expanded="true" signature="1281:1683" ph="..." />
-            <marker date="1493200756000" expanded="true" signature="1335:1665" ph="..." />
-            <marker date="1493200756000" expanded="true" signature="1503:1527" ph="..." />
-            <marker date="1493200756000" expanded="true" signature="1503:1583" ph="..." />
-            <marker date="1493200756000" expanded="true" signature="1503:1584" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/vfbgnhkngbfvdcxcvghj/css/lightslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/vfbgnhkngbfvdcxcvghj/css/frontend_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/vfbgnhkngbfvdcxcvghj/css/lightslider.css" />
+    <entry file="file://$USER_HOME$/Downloads/vfbgnhkngbfvdcxcvghj/css/frontend_main.css" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="385" column="72" lean-forward="false" selection-start-line="385" selection-start-column="72" selection-end-line="385" selection-end-column="72" />
-          <folding>
-            <marker date="1493102622000" expanded="true" signature="12692:13373" ph="..." />
-            <marker date="1493102622000" expanded="true" signature="12745:13358" ph="..." />
-            <marker date="1493102622000" expanded="true" signature="12795:13342" ph="..." />
-            <marker date="1493102622000" expanded="true" signature="12838:13325" ph="..." />
-            <marker date="1493102622000" expanded="true" signature="12892:13307" ph="..." />
-            <marker date="1493102622000" expanded="true" signature="13061:13181" ph="..." />
-            <marker date="1493102622000" expanded="true" signature="16282:16481" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2941">
           <caret line="227" column="2" lean-forward="false" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,23 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="371" column="12" lean-forward="false" selection-start-line="371" selection-start-column="12" selection-end-line="374" selection-end-column="15" />
-          <folding>
-            <marker date="1493278818000" expanded="true" signature="1394:1806" ph="..." />
-            <marker date="1493278818000" expanded="true" signature="1438:1477" ph="..." />
-            <marker date="1493278818000" expanded="true" signature="1545:1775" ph="..." />
-            <marker date="1493278818000" expanded="true" signature="1639:1740" ph="..." />
-            <marker date="1493278818000" expanded="true" signature="11503:11965" ph="..." />
-            <marker date="1493278818000" expanded="true" signature="11533:11907" ph="..." />
-            <marker date="1493278818000" expanded="true" signature="11607:11737" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="1139" column="11" lean-forward="false" selection-start-line="1139" selection-start-column="11" selection-end-line="1139" selection-end-column="11" />
-          <folding>
-            <marker date="1492589216000" expanded="true" signature="15211:15305" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="680" column="14" lean-forward="false" selection-start-line="680" selection-start-column="14" selection-end-line="680" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,9 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="2" column="20298" lean-forward="false" selection-start-line="2" selection-start-column="20298" selection-end-line="2" selection-end-column="20298" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-109064">
           <caret line="3827" column="34" lean-forward="false" selection-start-line="3827" selection-start-column="34" selection-end-line="3827" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,11 +621,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1513">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cr/croma/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cr/croma/main.min8a54.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133195">
+          <caret line="7835" column="1" lean-forward="false" selection-start-line="7835" selection-start-column="1" selection-end-line="7835" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80104">
+          <caret line="4712" column="1" lean-forward="false" selection-start-line="4712" selection-start-column="1" selection-end-line="4712" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cr/croma/cntact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="136" column="48" lean-forward="false" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5066">
+          <caret line="298" column="13" lean-forward="false" selection-start-line="298" selection-start-column="13" selection-end-line="298" selection-end-column="13" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <marker date="1493451214000" expanded="true" signature="12692:13373" ph="..." />
+            <marker date="1493451214000" expanded="true" signature="12745:13358" ph="..." />
+            <marker date="1493451214000" expanded="true" signature="12795:13342" ph="..." />
+            <marker date="1493451214000" expanded="true" signature="12838:13325" ph="..." />
+            <marker date="1493451214000" expanded="true" signature="12892:13307" ph="..." />
+            <marker date="1493451214000" expanded="true" signature="13061:13181" ph="..." />
+            <marker date="1493451214000" expanded="true" signature="16282:16481" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/croma/ecatalouge/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cntact (2).html" />
   </component>
 </project>

@@ -123,7 +123,7 @@
 							<div class="site-projects__mouse-area__project site-projects__mouse-area__project--'.$count.'">
 								<h3 class="site-projects__mouse-area__project__title">'.$category->name.'</h3>
 								<a href="'.$catUrl.'" target="_parent">
-									<img width="204" height="204" src="'.$catImage.'" class="attachment-project_circle size-project_circle wp-post-image" alt="" sizes="(max-width: 204px) 100vw, 204px" />
+									<img src="'.$catImage.'" class="attachment-project_circle size-project_circle wp-post-image" alt="" />
 								</a>
 							</div>';
 
