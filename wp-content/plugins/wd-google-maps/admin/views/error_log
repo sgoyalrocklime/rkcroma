@@ -1,0 +1,3 @@
+[01-May-2017 09:28:25 UTC] PHP Fatal error:  Class 'GMWDView' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/views/GMWDViewMarkers_gmwd.php on line 3
+[01-May-2017 09:29:52 UTC] PHP Fatal error:  Class 'GMWDView' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/views/GMWDViewPolylines_gmwd.php on line 3
+[01-May-2017 09:32:06 UTC] PHP Fatal error:  Class 'GMWDView' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/views/GMWDViewMarkercategories_gmwd.php on line 3

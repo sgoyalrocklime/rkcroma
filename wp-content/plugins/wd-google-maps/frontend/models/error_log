@@ -1,0 +1,1 @@
+[01-May-2017 09:31:08 UTC] PHP Fatal error:  Class 'GMWDModelFrontend' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/frontend/models/GMWDModelFrontendMap.php on line 3

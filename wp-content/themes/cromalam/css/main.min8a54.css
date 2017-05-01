@@ -273,7 +273,7 @@ article>*:last-child {
 
 a {
     text-decoration: none;
-    color: #E42620;
+    color: #f80000;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -ms-transition: all 0.25s ease-in-out;
@@ -373,9 +373,9 @@ a:hover {
 }
 
 .wpcf7 .wpcf7-response-output.wpcf7-validation-errors {
-    background: #E42620;
+    background: #f80000;
     color: #fff;
-    border: solid 2px #da201a;
+    border: solid 2px #f80000;
 }
 
 .wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ok {
@@ -388,10 +388,10 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-weight: 500;
-    background: #E42620;
+    background: #f80000;
     color: #fff;
     font-size: 12px;
-    border: solid 1px #da201a;
+    border: solid 1px #f80000;
 }
 
 .page-id-195 .layout--custom-html {
@@ -6809,6 +6809,7 @@ body {
     text-align: center;
     position: relative;
     border-bottom: solid 1px #6E6E6E;
+    margin: 10px;
 }
 
 .form-slider__input-wrap--submit {

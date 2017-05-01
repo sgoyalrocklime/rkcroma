@@ -1,0 +1,3 @@
+[01-May-2017 09:00:51 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/preview.php on line 17
+[01-May-2017 09:01:10 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd-google-maps.php on line 13
+[01-May-2017 09:01:21 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/google-maps-setup.php on line 17

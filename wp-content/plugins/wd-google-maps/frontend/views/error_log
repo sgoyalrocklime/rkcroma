@@ -1,0 +1,1 @@
+[01-May-2017 09:27:58 UTC] PHP Fatal error:  Class 'GMWDViewFrontend' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/frontend/views/GMWDViewFrontendMap.php on line 3

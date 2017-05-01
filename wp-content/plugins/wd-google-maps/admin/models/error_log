@@ -1,0 +1,4 @@
+[01-May-2017 09:28:56 UTC] PHP Fatal error:  Class 'GMWDModel' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/models/GMWDModelUninstall_gmwd.php on line 3
+[01-May-2017 09:29:33 UTC] PHP Fatal error:  Class 'GMWDModel' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/models/GMWDModelMaps_gmwd.php on line 3
+[01-May-2017 09:30:11 UTC] PHP Fatal error:  Class 'GMWDModel' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/models/GMWDModelOptions_gmwd.php on line 3
+[01-May-2017 09:31:46 UTC] PHP Fatal error:  Class 'GMWDModel' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/models/GMWDModelThemes_gmwd.php on line 3

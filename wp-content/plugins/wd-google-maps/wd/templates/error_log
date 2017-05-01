@@ -1,0 +1,8 @@
+[01-May-2017 09:27:55 UTC] PHP Fatal error:  Call to undefined function _e() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd/templates/display_subscribe.php on line 9
+[01-May-2017 09:27:56 UTC] PHP Fatal error:  Call to undefined function _e() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd/templates/display_deactivation_popup.php on line 8
+[01-May-2017 09:27:56 UTC] PHP Fatal error:  Call to undefined function __() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd/templates/display_overview_deals.php on line 12
+[01-May-2017 09:27:57 UTC] PHP Fatal error:  Call to undefined function __() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd/templates/display_overview.php on line 6
+[01-May-2017 09:27:58 UTC] PHP Fatal error:  Call to undefined function _e() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd/templates/display_overview_user_guide.php on line 33
+[01-May-2017 09:28:09 UTC] PHP Fatal error:  Call to undefined function __() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd/templates/display_overview_support.php on line 3
+[01-May-2017 09:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd/templates/display_overview_welcome.php on line 21
+[01-May-2017 09:28:20 UTC] PHP Fatal error:  Call to undefined function _e() in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/wd/templates/display_overview_welcome.php on line 26

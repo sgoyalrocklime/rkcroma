@@ -211,3 +211,34 @@
     background-color: #ff0000;
     transition: background-color 0.35s;
 }
+
+.form-slider__input-wrap .wpcf7-not-valid-tip{
+    position: absolute !important;
+    top: 100% !important;
+    margin-top: 15px !important;
+    left: 50% !important;
+    width: 200px !important;
+    margin-left: -100px !important;
+    z-index: 1 !important;
+}
+
+.layout--custom-html .wpcf7-form .wpcf7-response-output{
+    position: absolute !important;
+    bottom: 70px !important;
+    left: 50% !important;
+    max-width: 600px !important;
+    margin: 0 0 0 -300px !important;
+    z-index: 1000 !important;
+    width: 100% !important;
+}
+
+.layout--custom-html .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok{
+    top: 84% !important;
+}
+
+.sectn2 {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 20px;
+}

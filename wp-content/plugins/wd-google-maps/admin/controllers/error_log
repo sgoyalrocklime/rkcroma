@@ -1,0 +1,9 @@
+[01-May-2017 09:26:30 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerPolygons_gmwd.php on line 3
+[01-May-2017 09:26:41 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerOptions_gmwd.php on line 3
+[01-May-2017 09:26:52 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerMarkercategories_gmwd.php on line 3
+[01-May-2017 09:27:02 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerMarkers_gmwd.php on line 3
+[01-May-2017 09:27:13 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerPolylines_gmwd.php on line 3
+[01-May-2017 09:27:23 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerMaps_gmwd.php on line 3
+[01-May-2017 09:27:34 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerShortcode_gmwd.php on line 3
+[01-May-2017 09:27:45 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerThemes_gmwd.php on line 3
+[01-May-2017 09:28:10 UTC] PHP Fatal error:  Class 'GMWDController' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/admin/controllers/GMWDControllerUninstall_gmwd.php on line 3
