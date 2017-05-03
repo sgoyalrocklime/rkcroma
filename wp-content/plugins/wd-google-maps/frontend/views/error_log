@@ -1,1 +1,4 @@
 [01-May-2017 09:27:58 UTC] PHP Fatal error:  Class 'GMWDViewFrontend' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/frontend/views/GMWDViewFrontendMap.php on line 3
+[01-May-2017 16:42:06 UTC] PHP Fatal error:  Class 'GMWDViewFrontend' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/frontend/views/GMWDViewFrontendMap.php on line 3
+[01-May-2017 23:12:44 UTC] PHP Fatal error:  Class 'GMWDViewFrontend' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/frontend/views/GMWDViewFrontendMap.php on line 3
+[02-May-2017 19:49:46 UTC] PHP Fatal error:  Class 'GMWDViewFrontend' not found in /home/cromalam/public_html/wp-content/plugins/wd-google-maps/frontend/views/GMWDViewFrontendMap.php on line 3

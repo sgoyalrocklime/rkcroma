@@ -376,7 +376,7 @@ function cromalam_get_all_events(){
             $eventImage = get_the_post_thumbnail_url($eventID);
             $eventDate = get_field('event_date', $eventID);
 
-            $html .= '<div class="news-grid__items__item news-grid__items__item--double wow fadeInDownFixed" data-wow-delay="1.4s">
+            $html .= '<div class="news-grid__items__item news-grid__items__item--double wow fadeInDownFixed" data-wow-delay="0.4s">
 							  <div class="news-grid__items__item__inner">
 								  <div class="post-item post-item--tall">
 									  <div class="post-item__double">

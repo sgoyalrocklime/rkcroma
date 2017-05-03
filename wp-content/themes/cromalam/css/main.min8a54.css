@@ -4257,7 +4257,9 @@ body {
 
 .numbered-slider__slide__content {
     text-align: center;
-    padding: 40px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0 120px 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -7720,8 +7722,9 @@ body {
 
 .site-footer__columns__column {
     float: left;
-    width: 175px;
+    /*width: 175px;*/
     margin-left: 145px;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 860px) {
@@ -7824,9 +7827,27 @@ body {
     font-style: normal;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen (min-width: 480px) and (max-width: 860px) {
     .site-footer__address {
         margin-top: 42px;
+    }
+
+    .site-footer__logo{
+        width:100%;
+        background-position:center;
+    }
+
+    .site-footer__columns{
+        width:100%;
+    }
+
+    .site-footer__columns__column{
+        margin-left:80px !important;
+    }
+
+    .site-footer__address p{
+        width: 100%;
+        text-align: center;
     }
 }
 

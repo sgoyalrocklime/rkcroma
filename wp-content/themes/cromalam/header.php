@@ -15,16 +15,14 @@
 <div id="overlay-loader-red" class="overlay-loader" style="background-color:
 <?php echo get_theme_mod('loader1_color'); ?> !important;">
     <div class="overlay-loader-inner">
-				<span class="loader-logo logo" style="background-image: url('
-                <?php echo get_theme_mod('pre_loader_image'); ?>') !important;">
+				<span class="loader-logo logo" style="background-image: url('<?php echo get_theme_mod('pre_loader_image'); ?>') !important;">
 				</span>
     </div>
 </div>
 <div id="overlay-loader-grey" class="overlay-loader" style="background-color:
 <?php echo get_theme_mod('loader2_color'); ?> !important;">
     <div class="overlay-loader-inner">
-				<span class="loader-logo logo" style="background-image: url('
-                <?php echo get_theme_mod('pre_loader_image'); ?>') !important;">
+				<span class="loader-logo logo" style="background-image: url('<?php echo get_theme_mod('pre_loader_image'); ?>') !important;">
 				</span>
     </div>
 </div>

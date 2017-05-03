@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f8260e4-9a4b-4968-8d67-5c3d35c033a4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js" afterPath="$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,18 +31,18 @@
       <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="4471">
               <caret line="263" column="12" lean-forward="false" selection-start-line="263" selection-start-column="12" selection-end-line="263" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="287" column="10" lean-forward="true" selection-start-line="287" selection-start-column="10" selection-end-line="287" selection-end-column="10" />
+            <state relative-caret-position="5100">
+              <caret line="300" column="1" lean-forward="false" selection-start-line="300" selection-start-column="1" selection-end-line="300" selection-end-column="1" />
               <folding>
                 <marker date="1493451214000" expanded="true" signature="12691:13372" ph="..." />
                 <marker date="1493451214000" expanded="true" signature="12744:13357" ph="..." />
@@ -55,6 +52,16 @@
                 <marker date="1493451214000" expanded="true" signature="13060:13180" ph="..." />
                 <marker date="1493451214000" expanded="true" signature="16236:16435" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/croma/careers/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="223" column="37" lean-forward="false" selection-start-line="223" selection-start-column="37" selection-end-line="223" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,7 +122,6 @@
       <list>
         <option value="$USER_HOME$/Downloads/croma/index.html" />
         <option value="$PROJECT_DIR$/../insurance/wp-config.php" />
-        <option value="$USER_HOME$/Downloads/croma/contact/index.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/careers.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wonderplugin-carousel/engine/wonderplugincarousel.js" />
         <option value="$PROJECT_DIR$/wp-config.php" />
@@ -155,6 +161,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/js/main.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cromalam/css/style.css" />
+        <option value="$USER_HOME$/Downloads/croma/contact/index.html" />
       </list>
     </option>
   </component>
@@ -186,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,12 +313,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../insurance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ersumitgoyal" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -432,7 +439,10 @@
       <workItem from="1493367147031" duration="596000" />
       <workItem from="1493376498674" duration="2051000" />
       <workItem from="1493441935793" duration="7628000" />
-      <workItem from="1493614644373" duration="8523000" />
+      <workItem from="1493614644373" duration="8636000" />
+      <workItem from="1493632171057" duration="604000" />
+      <workItem from="1493700178791" duration="3113000" />
+      <workItem from="1493787320095" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1492516979173</created>
@@ -445,7 +455,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215804000" />
+    <option name="totallyTimeSpent" value="220865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,13 +468,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2632375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5499182" sideWeight="0.50907713" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5499182" sideWeight="0.50907713" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5499182" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -476,6 +485,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5499182" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -518,14 +528,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/ecatalouge-template.php" />
-    <entry file="file://$USER_HOME$/Downloads/croma/inspiration/inspiration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="137" column="35" lean-forward="true" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/croma/wp-content/themes/stortford-interiors/js/dist/scripts.min8a54.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -729,46 +731,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/cr/croma/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/cr/croma/main.min8a54.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133195">
-          <caret line="7835" column="1" lean-forward="false" selection-start-line="7835" selection-start-column="1" selection-end-line="7835" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cr/croma/style.css" />
+    <entry file="file://$USER_HOME$/Downloads/cr/croma/main.min8a54.css" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/css/main.min8a54.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80104">
           <caret line="4712" column="1" lean-forward="false" selection-start-line="4712" selection-start-column="1" selection-end-line="4712" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/cr/croma/cntact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cr/croma/cntact.html" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,9 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="428" column="62" lean-forward="false" selection-start-line="428" selection-start-column="23" selection-end-line="428" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="430" column="49" lean-forward="false" selection-start-line="430" selection-start-column="49" selection-end-line="430" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,22 +801,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="209" column="14" lean-forward="true" selection-start-line="209" selection-start-column="14" selection-end-line="209" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="4471">
           <caret line="263" column="12" lean-forward="false" selection-start-line="263" selection-start-column="12" selection-end-line="263" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/croma/contact/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="211" column="8" lean-forward="false" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cromalam/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="287" column="10" lean-forward="true" selection-start-line="287" selection-start-column="10" selection-end-line="287" selection-end-column="10" />
+        <state relative-caret-position="5100">
+          <caret line="300" column="1" lean-forward="false" selection-start-line="300" selection-start-column="1" selection-end-line="300" selection-end-column="1" />
           <folding>
             <marker date="1493451214000" expanded="true" signature="12691:13372" ph="..." />
             <marker date="1493451214000" expanded="true" signature="12744:13357" ph="..." />
@@ -852,6 +832,14 @@
             <marker date="1493451214000" expanded="true" signature="13060:13180" ph="..." />
             <marker date="1493451214000" expanded="true" signature="16236:16435" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/croma/careers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="223" column="37" lean-forward="false" selection-start-line="223" selection-start-column="37" selection-end-line="223" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
