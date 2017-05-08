@@ -29,35 +29,29 @@ h1, h2, h3, h4{
 }
 .gmwd_upgrade{
     clear: both;
-    padding: 15px;
+    padding: 0px 15px;
     background: #fff;
-    margin: 6px 15px;
+    margin: 6px 0px;
     color: #6e7990;
     font-size: 14px;
     font-weight: bold;
     line-height: 30px;
+
+}
+.gmwd_upgrade .wd-table{
+    background-color: #D8D8D8;
+    padding: 1px 5px;
+    font-size: 11px;  
 }
 
 .gmwd_upgrade .wd-cell:first-child{
-    padding-right: 14px;
+    padding-right: 2px;
 }
-.gmwd_upgrade .wd-cell:first-child img{
-    vertical-align:middle;
-}
-.gmwd_upgrade .wd-cell:first-child a{
-   color: #72777c !important;
-}
-.gmwd_upgrade .wd-cell:last-child{
-    background: #45A6B7;
-}
-.gmwd_upgrade .wd-cell:last-child a{
-    color: #fff !important;
-    padding: 18px;
-}
-    
-   
-.gmwd_upgrade a, .gmwd_upgrade a:hover {
+.gmwd_upgrade a, .ytwd_upgrade a:hover {
     text-decoration: none !important;
+}
+.gmwd_upgrade img {
+    vertical-align: middle;
 }
 
 

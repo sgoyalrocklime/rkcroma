@@ -20,44 +20,52 @@ function gmwd_get_option($option_name){
 }
 function upgrade_pro($text = false){
     $page = isset($_GET["page"]) ? $_GET["page"] : "";
+    $task = isset($_GET["task"]) ? $_GET["task"] : "";
 ?>
     <div class="gmwd_upgrade wd-clear" >
         <div class="wd-left">
         <?php
             switch($page){
                 case "maps_gmwd":
+                    if($task == "edit"){
                 ?>
-                    <div style="font-size: 14px;">
+                    <div style="font-size: 14px;margin-top: 6px;">
+                        <?php _e(" This section allows you to add/edit map.","gmwd");?>
+                        <a style="color: #5CAEBD; text-decoration: none;border-bottom: 1px dotted;" target="_blank" href="https://web-dorado.com/wordpress-google-maps/creating-map.html"><?php _e("Read More in User Manual.","gmwd");?></a>
+                    </div>                
+                <?php
+                    }
+                    else{
+                ?>
+                    <div style="font-size: 14px;margin-top: 6px;">
                         <?php _e(" This section allows you to create, edit and delete maps.","gmwd");?>
                         <a style="color: #5CAEBD; text-decoration: none;border-bottom: 1px dotted;" target="_blank" href="https://web-dorado.com/wordpress-google-maps/creating-map.html"><?php _e("Read More in User Manual.","gmwd");?></a>
                     </div>
-                <?php      
+                <?php
+                    }      
                 break;
                 case "options_gmwd":
                 ?>
-                    <div style="font-size: 14px;">
+                    <div style="font-size: 14px;margin-top: 6px;">
                         <?php _e("This section allows you to change general options.","gmwd");?>
                         <a style="color: #5CAEBD; text-decoration: none;border-bottom: 1px dotted;" target="_blank" href="https://web-dorado.com/wordpress-google-maps/installation-wizard-options-menu.html"><?php _e("Read More in User Manual.","gmwd");?></a>
                     </div> 
                 <?php      
-                break;                
+                break; 
             }
         ?>
         </div>
         <div class="wd-right"> 
-            <div class="wd-table">
-                <div class="wd-cell wd-cell-valign-middle">
-                    <a href="https://wordpress.org/support/plugin/wd-google-maps" target="_blank">
-                        <img src="<?php echo GMWD_URL; ?>/images/i_support.png" >
-                        <?php _e("Support Forum", "gmwd"); ?>
-                    </a>
-                </div>            
-                <div class="wd-cell wd-cell-valign-middle">
-                    <a href="https://web-dorado.com/products/wordpress-google-maps-plugin.html" target="_blank">
-                    <?php _e("UPGRADE TO PAID VERSION", "gmwd"); ?>
-                     </a> 
+             <a href="https://web-dorado.com/products/wordpress-google-maps-plugin.html" target="_blank">
+                <div class="wd-table">
+                    <div class="wd-cell wd-cell-valign-middle">
+                        <img src="<?php echo GMWD_URL; ?>/images/web-dorado.png" width="42px" >
+                    </div>         
+                    <div class="wd-cell wd-cell-valign-middle">                   
+                        <?php _e("UPGRADE TO PAID VERSION", "gmwd"); ?>
+                    </div>
                 </div>
-            </div>     
+            </a>      
                             
         </div>
     </div>

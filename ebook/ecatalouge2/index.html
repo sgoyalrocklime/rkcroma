@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>Cromalam ecatalouge2</title>
+	<meta name="description" content="">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui,maximum-scale=1">
+  <meta http-equiv="cleartype" content="on"> 
+  <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+
+ <link rel="stylesheet" type="text/css" href="css/jquery.loader.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="wow_book/wow_book.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/css/font-awesome.min.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mycss.css">
+    <link rel="stylesheet" href="css/page_load.css">
+      <link href="css/jquery-ui.min.css" rel="stylesheet" />
+<link href="css/autocomplete.css"  rel="stylesheet" />
+<!--  <link href='//fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+ --><script src="js/vendor/jquery-2.2.0.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.ui.autocomplete.html.js"></script>
+ <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+<script src="js/vendor/modernizr-2.7.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+<script src="js/jquery.loader.min.js"></script>
+<script src="js/my_script.js"></script> 
+	
+    
+	       <style type="text/css">
+area.group
+{
+    outline: none;
+}
+.fb5-download {
+    display: block; 
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    z-index: 99;
+    background: white;
+}
+
+.music
+{
+  float: left;
+ 
+}
+.play
+{
+      position: absolute;
+    right: 100px;
+    z-index: 99;
+    cursor: pointer;
+    top: 13px;
+}
+.pause
+{
+    position: absolute;
+    right: 100px;
+    z-index: 99;
+    cursor: pointer;
+    top: 13px;
+display: none;
+}
+
+.book_container::after {
+  content: "";
+  background: url(images/wood.jpg);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.book_container {
+  display: block;
+/*  position: relative;
+*/}
+
+.logo {
+border: 0 solid;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+left: 2%;
+position: absolute;
+z-index: 999999;
+}
+.back {
+border: 1px solid #fff;
+border-radius: 5px;
+bottom: 25px;
+float: right;
+padding: 10px;
+position: absolute;
+right: 2%;
+z-index: 999999;
+transform: none;
+}
+
+.back > a {
+text-decoration: none;
+transform: none;
+color: #fff;
+}
+
+.group1 
+{
+height: 50px;
+width: 50px;
+}
+
+.fancybox-inner img
+
+{
+  height: 100%;
+  width: 100%;
+}
+
+.wowbook-thumbnail {
+  width : 100px; /* you can also use "ems" */
+}
+
+ img.lazy {
+     
+        
+        /* optional way, set loading as background */
+        background-image: url('images/loading.gif');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+
+@keyframes marquee {
+   from  { text-indent:  100% }
+    to    { text-indent: -100% }
+}
+.wowbook-toc-items {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+.hmbtn{
+position: absolute;
+z-index: 9999;
+bottom: 8%;
+right: 10%;
+display: block;
+border:0 none;
+border-radius: 150%;
+background-color: #38393d;
+padding: 25px 15px 25px 15px;
+font-family: "lato";
+}
+.hmbtn a{
+font-size: 20px;
+color: #fff;
+text-decoration: none;
+}
+.hmbtn:hover{
+background-color: #ff0000 !important;
+transition: background-color 0.35s;
+}
+
+
+    </style>
+   <script type="text/javascript">  
+  $(document).ready(function() { 
+    $("#topic_title").autocomplete({
+       delay: 0,
+      source: "ajax.php",
+      minLength: 2,
+
+
+      select: function(event, ui) {
+        var pageid=ui.item.label;
+               if(pageid!=''){
+    // $("#book").hide();
+    $(pageid).show();
+
+        }
+       
+      },
+   
+      html: true, // optional (jquery.ui.autocomplete.html.js required)
+   
+      // optional (if other layers overlap autocomplete list)
+      open: function(event, ui) {
+        $(".ui-autocomplete").css("z-index", 1000);
+      }
+    });
+  });
+</script>
+</head>
+<body>
+    
+<header class="fav_rate">
+    <div class="logo">
+      <a href="http://cromalam.com">
+        <img src="http://cromalam.com/wp-content/uploads/2017/04/front-logo-1.png" class="logo">
+      </a>
+    </div>
+    <!-- <div class="back">
+      <a href="http://cromalam.com/ecatalouge/">Back to eCatalogue</a>
+    </div> -->
+
+    <div class="hmbtn"><a href="http://cromalam.com/ecatalouge/">Back</a></div>
+    
+    <!--<img src="img/front-logo.png" class="logo">
+    <div class="marquee">
+        <p>Click On Laminate for Popup</p>
+    </div>-->
+    
+<div class="music">
+    <a title="Play Music" id="player" class="play" onclick="playVid()"><img src="img/play.png" id="play"></a>
+    <a title="Pause Music" class="pause" onclick="pauseVid()"><img src="img/pause.png" id="pause"></a>
+</div>         
+
+
+<audio id="myVideo">
+  <source src="sound/Soulful R&B Classic Rap Beat Hip Hop Instrumental 2016 - Feelo.mp3" type="audio/mpeg">
+Your browser does not support this audio format.
+</audio>
+         <!--   <span data-target="#favorite" data-toggle="modal" class="fav-countholder"><i class="fa fa-heart"></i></span>
+        <input type="text" class="lamauto" placeholder="Search" id="topic_title">
+        <a title="Download Book (Pdf)" class="fb5-download" href="img/file.pdf" target="_blank"><img src="img/icons.png" id="download_img"></a> -->
+  </header>
+  
+  <div class='book_container'>
+      <div id='book'>
+      <div id='cover' >
+      <img src="img/2.jpg" class="lazy">
+      </div>
+         
+       
+         
+           <div class='responsive'>
+            <img src="img/3.jpg" class="lazy">
+          </div>
+          \ <div class='responsive'>
+            <img src="img/3a.jpg" class="lazy">
+                
+          </div>
+           <div class='responsive'>
+            <img src="img/4.jpg" class="lazy" usemap="#map4">
+                 <map name="map4"> 
+                                            <area shape="rect" coords="82,132,396,783" href="popup/4/Acrylia P - 036.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P-036">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/4/Acrylia P - 6018.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P-6018">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/4/Acrylia P-6014.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P-6014">
+                                            </map>
+          </div>
+        <!--    <div class='responsive'>
+            <img src="img/5.jpg" class="lazy" usemap="#map5">
+                 <map name="map5"> 
+                                         <area shape="rect" coords="82,132,396,783" href="popup/5/Acrylia 007.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 007">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/5/Acrylia 005.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 005">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/5/Acrylia P - 6011.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P-6011">
+                                            </map>
+          </div> -->
+          <!--  <div class='responsive'>
+            <img src="img/6.jpg" class="lazy" usemap="#map6">
+                 <map name="map6"> 
+                                          <area shape="rect" coords="82,132,396,783" href="popup/6/Acrylia P_6025.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 6025">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/6/Acrylia P_6003.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 6003">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/6/Acrylia P_6022.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 6022">
+                                            </map>
+          </div> -->
+           <div class='responsive'>
+            <img src="img/7.jpg" class="lazy" usemap="#map7">
+                 <map name="map7"> 
+                                         <area shape="rect" coords="82,132,396,783" href="popup/7/Acrylia P_159.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 159">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/7/Acrylia P_162.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 162">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/7/Acrylia P_123.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 123">
+                                            </map>
+          </div>
+           <div class='responsive'>
+            <img src="img/8.jpg" class="lazy" usemap="#map8">
+                 <map name="map8"> 
+                                           <area shape="rect" coords="82,132,396,783" href="popup/8/Acrylia_1070.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1070">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/8/Acrylia_1073.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1073">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/8/Acrylia_1071.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1071">
+                                            </map>
+          </div>
+           <div class='responsive'>
+            <img src="img/8a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/9.jpg" class="lazy" usemap="#map9">
+                 <map name="map9"> 
+                                         <area shape="rect" coords="82,132,396,783" href="popup/9/Acrylia_2011.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 2011">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/9/Acrylia_2005.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 2005">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/9/Acrylia_372.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 372">
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/9a.jpg" class="lazy">
+          </div>
+      <div class='responsive'>
+      <img src="img/10.jpg" class="lazy" usemap="#map10">
+                 <map name="map10"> 
+                                            <area shape="rect" coords="82,132,396,783" href="popup/10/Acrylia_2026.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 2026">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/10/Acrylia_2003.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 2003">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/10/Acrylia_370.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 370">
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/10a.jpg" class="lazy">
+          </div>
+          <div class='responsive'>
+            <img src="img/11.jpg" class="lazy" usemap="#map11">
+                 <map name="map11"> 
+                                       <area shape="rect" coords="82,132,396,783" href="popup/11/Acrylia_1099.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1099">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/11/Acrylia_1097.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1097">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/11/Acrylia_1098.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1098">
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/11a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/12.jpg" class="lazy" usemap="#map12">
+                 <map name="map12"> 
+                                       <area shape="rect" coords="82,132,396,783" href="popup/12/Acrylia_1096.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1096">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/12/Acrylia_1067.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1067">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/12/Acrylia_1068.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1068">
+                                          
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/12a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/13.jpg" class="lazy" usemap="#map13">
+                 <map name="map13"> 
+                                       <area shape="rect" coords="82,132,396,783" href="popup/13/Acrylia -P_399.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 399">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/13/Acrylia -P_397.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 397">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/13/Acrylia -P_399.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 399">
+                                          
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/13a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/14.jpg" class="lazy" usemap="#map14">
+                 <map name="map14"> 
+                                       <area shape="rect" coords="82,132,396,783" href="popup/14/Acrylia_1026.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1026">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/14/Acrylia_1025.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1025">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/14/Acrylia_5028.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 5028">
+                                          
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/14a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/15.jpg" class="lazy" usemap="#map15">
+                 <map name="map15"> 
+                                       <area shape="rect" coords="82,132,396,783" href="popup/15/Acrylia-P_393.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 393">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/15/Acrylia-P_5023.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5023">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/15/Acrylia-P_5025.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5025">
+                                          
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/15a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/16.jpg" class="lazy" usemap="#map16">
+                 <map name="map16"> 
+                                        <area shape="rect" coords="82,132,396,783" href="popup/16/Acrylia_1003.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia 1003">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/16/Acrylia - P_1032.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 1032">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/16/Acrylia - P_1033.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 1033">
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/16a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/17.jpg" class="lazy" usemap="#map17">
+                 <map name="map17"> 
+                                        <area shape="rect" coords="82,132,396,783" href="popup/17/Acrylia - P_5034.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5034">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/17/Acrylia - P_5017.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5017">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/17/Acrylia - P_5018.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5018">
+                                            </map>
+          </div>
+             <div class='responsive'>
+            <img src="img/17a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/18.jpg" class="lazy" usemap="#map18"> 
+                 <map name="map18"> 
+                                       <area shape="rect" coords="82,132,396,783" href="popup/18/Acrylia - P_5026.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5026">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/18/Acrylia - P_5027.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5027">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/18/Acrylia - P_382.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 382">
+                                            </map>
+          </div>
+           <div class='responsive'>
+            <img src="img/19.jpg" class="lazy" usemap="#map19">
+                 <map name="map19"> 
+                                         <area shape="rect" coords="82,132,396,783" href="popup/19/Acrylia - P_5030.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5030">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/19/Acrylia - P_5031.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5031">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/19/Acrylia - P_1007.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 1007">
+                                            </map>
+          </div>          
+             <div class='responsive'>
+            <img src="img/19a.jpg" class="lazy">
+          </div>
+             <div class='responsive'>
+            <img src="img/19b.jpg" class="lazy">
+          </div>
+        <!--  <div class='responsive'>
+            <img src="img/20.jpg" class="lazy" usemap="#map20">
+                 <map name="map20"> 
+                                         <area shape="rect" coords="82,132,396,783" href="popup/20/Acrylia - P_5040.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5040">
+                                            <area shape="rect" coords="439,130,750,787" href="popup/20/Acrylia - P_5043.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 5043">
+                                           <area shape="rect" coords="813,131,1126,784" href="popup/20/Acrylia - P_203.jpg" rel="fancybox-thumb"  class="group" data-caption="Acrylia P 203">
+                                            </map>
+          </div>       -->    
+             <div class='responsive'>
+            <img src="img/20.jpg" class="lazy">
+          </div>
+             <div class='responsive'>
+            <img src="img/20a.jpg" class="lazy">
+          </div>
+             <div class='responsive'>
+            <img src="img/20b.jpg" class="lazy">
+          </div> 
+           <div class='responsive'>
+            <img src="img/21.jpg" class="lazy">
+                
+          </div>
+            <div class='responsive'>
+            <img src="img/22.jpg" class="lazy">
+                
+          </div>
+             <div class='responsive'>
+            <img src="img/22a.jpg" class="lazy">
+          </div>
+        <div class='responsive'>
+            <img src="img/23.jpg" class="lazy">
+                
+          </div>
+            <div class='responsive'>
+            <img src="img/23a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/24.jpg" class="lazy">
+          </div>
+             <div class='responsive'>
+            <img src="img/24a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/25.jpg" class="lazy">
+                
+          </div>
+             <div class='responsive'>
+            <img src="img/25a.jpg" class="lazy">
+          </div>
+            <div class='responsive'>
+            <img src="img/26.jpg" class="lazy">
+                
+          </div>
+             <div class='responsive'>
+            <img src="img/26a.jpg" class="lazy">
+          </div>
+        <div class='responsive'>
+            <img src="img/27.jpg" class="lazy">
+                
+          </div>
+            <div class='responsive'>
+            <img src="img/27a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/28.jpg" class="lazy">
+          </div>
+             <div class='responsive'>
+            <img src="img/28a.jpg" class="lazy">
+          </div>
+           <div class='responsive'>
+            <img src="img/29.jpg" class="lazy">
+                
+          </div>
+             <div class='responsive'>
+            <img src="img/29a.jpg" class="lazy">
+          </div>
+            <div class='responsive'>
+            <img src="img/30.jpg" class="lazy">
+                
+          </div>
+        <div class='responsive'>
+            <img src="img/31.jpg" class="lazy">
+                
+          </div>
+         
+           <div class='responsive'>
+            <img src="img/31a.jpg" class="lazy">
+          </div>
+         
+           <div class='responsive'>
+          <img src="img/end.jpg">
+          </div>
+  
+
+
+      
+      </div> <!-- book -->
+
+  </div>
+
+<!-- <div id="overlay-back"></div>
+ --><!--                 <div id="popup">
+ --><!--                 <p>
+ --><!--                     <img src="img/splash.png" class="close-image" />
+ --><!--                     </p>
+ -->                   <!--  <img src="img/splash.png" class="splash responsive"> -->
+<!--                 </div>
+ -->  <div id='thumbs_holder'></div>
+
+  <!-- if you don't need support for IE8 use jquery 2.1 -->
+  <!-- <script src="js/vendor/jquery-2.1.0.min.js"></script> -->
+<!--   
+ -->    <script src="js/helper.js"></script>
+    <script src="wow_book/wow_book.min.js"></script>
+
+
+
+  <!-- <script src="js/main.js"></script> -->
+
+  <style>
+    .wowbook-book-container .wowbook {
+      top: 0;
+      -moz-transform: translateY( 0% );
+      -webkit-transform: translateY( 0% );
+      -o-transform: translateY( 0% );
+      -ms-transform: translateY( 0% );
+      transform: translateY( 0% );
+    }
+  </style>
+
+  <script>
+    $(function(){
+      var bookOptions = {
+         height   : 625
+        ,width    : 990
+        ,maxWidth : 990
+        // ,maxHeight : 800
+
+        ,centeredWhenClosed : false
+        ,hardcovers : false
+          ,numberedPages : true
+
+        ,toolbar : "first, back, next,last, zoomin, zoomout, slideshow, flipsound, fullscreen, thumbnails"
+        ,thumbnailsPosition : 'bottom'
+        ,responsiveHandleWidth : 50
+
+        ,container: window
+        ,containerPadding: "35px"
+        ,toolbarContainerPosition: "top" // default "bottom"
+        ,turnPageDuration: 650
+                ,hardPages: true 
+                ,perspective: 4000
+                ,gutterShadow: false
+                ,bookShadow: false
+                ,shadows: false
+                // ,slideShow: true
+                // ,slideShowDelay: 5000
+
+        ,toc: [                         // table of contents in the format
+          [ "Front Cover", 0 ],  // [ "title", page number ]
+          [ "About", 1 ],
+          [ "Acrylia P6018-P6011", 3 ],
+          [ "Acrylia P6025-P123", 5 ],
+          [ "Acrylia P1070-372", 7 ],
+          [ "Acrylia 2003-1097", 9 ],
+          [ "Acrylia 1096-P394", 11 ],
+          [ "Acrylia 1026-P5025", 13 ],
+          [ "Acrylia 1003-P5018", 15 ],
+          [ "Acrylia P5026-1007", 17 ],
+          [ "Back Cover", 19 ],          
+        ]
+        ,onFullscreenError : function(){
+          var msg="Fullscreen failed.";
+          if (self!=top) msg="The frame is blocking full screen mode. Click on 'remove frame' button above and try to go full screen again."
+          alert(msg);
+        }
+        ,onShowPage : function(){
+           $('map').imageMapResize();
+        }
+
+      };
+
+
+
+      $('#book').wowBook( bookOptions );
+      // {
+   //              $('map').imageMapResize();
+   //          } // create the book
+      var book=$.wowBook("#book"); // get book object instance
+
+      $("#cover").click(function(){
+        book.advance();
+      });
+
+      function rebuildThumbnails(){
+        book.destroyThumbnails()
+        book.showThumbnails()
+        $("#thumbs_holder").css("marginTop", -$("#thumbs_holder").height()/2)
+      }
+      $("#thumbs_position button").on("click", function(){
+        var position = $(this).text().toLowerCase()
+        if ($(this).data("customized")) {
+          position = "top"
+          book.opts.thumbnailsParent = "#thumbs_holder";
+        } else {
+          book.opts.thumbnailsParent = "body";
+        }
+        book.opts.thumbnailsPosition = position
+        rebuildThumbnails();
+      })
+      $("#thumbs_size button").click(function(){
+        var factor = 0.02*( $(this).index() ? -1 : 1 );
+        book.opts.thumbnailScale = book.opts.thumbnailScale + factor;
+        rebuildThumbnails();
+      })
+    })
+  </script>
+    
+  
+<script src="js/jquery.fancybox.js"></script>
+<!-- <script src="js/jquery.fancyboxbox.transitions.js"></script>
+ -->
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+
+            setInterval(function(){
+
+
+
+            },1000)
+
+
+
+            $('#overlay-back').fadeIn(500, function() {
+                $('#popup').show();
+            });
+
+            $('.close-image').on('click', function() {
+                $('#popup').hide();
+                $('#overlay-back').fadeOut(500);
+            });
+ });
+ </script>
+
+<script type="text/javascript">
+window.history.forward(1);
+
+</script>
+
+
+       <script type="text/javascript">
+          $(document).ready(function(){   
+var windowSize = $(window).width();
+     if (windowSize <= 500)
+           {
+
+       $('.wowbook-control-thumbnails > .remove-sticky-hover-style').click(function(){
+        $('.civil').toggle();
+
+      });
+
+       $('.wowbook-control-toggle-toolbar').click(function(){
+         $('.civil').toggle();
+          $('.music').toggle();
+      });
+
+           $('.wowbook-control-toc').click(function(){
+         $('.fb5-download').toggle();
+        $('.fav-countholder').toggle();
+      });
+
+            $('.wowbook-close').click(function(){
+                 $('.fb5-download').toggle();
+                 $('.fav-countholder').toggle();
+
+            });
+
+         }
+
+        else
+        {
+       $('.wowbook-control-thumbnails').click(function(){
+        $('.civil').toggle();
+      }); 
+
+
+             }
+    });
+  </script> 
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      
+
+      $('.wowbook-control-toggle-toolbar').click(function(){
+        $('.civil').toggle();
+        $('.music').toggle();
+      });
+
+      
+    
+            $('.wowbook-control-toc').click(function(){
+        $('.civil').toggle();
+        $('.music').toggle();
+
+       
+      });
+
+     });
+</script> 
+
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.wowbook-close').click(function(){
+               $('.civil').show();
+                $('.music').show();
+
+            });
+
+         });
+    </script>  
+
+        <!-- Modal -->
+<div class="modal fade" id="favorite" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Favorites</h4>
+
+      </div>
+      <div class="modal-body">
+       <div class="list-group" id="favorites-hold">
+      <button type="button" class="list-group-item">Cras justo odio</button>
+     
+    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default clear-favorites" >Clear Favorites</button>
+    <!--     <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var vid = document.getElementById("myVideo"); 
+document.getElementById("myVideo").loop = true;
+function playVid() { 
+    vid.play();
+    $('.play').hide(); 
+     $('.pause').show(); 
+} 
+
+function pauseVid() { 
+    vid.pause();
+    $('.pause').hide(); 
+    $('.play').show(); 
+} 
+
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('body').loader('show');
+
+    setTimeout(function () {
+
+        $('body').loader('hide');
+
+    }, 3000);
+
+
+      $('.lazy').Lazy({
+          placeholder: "data:image/gif;"
+      
+    });
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("div:not(.wowbook-control-toc)").click(function(){
+   
+    $('.wowbook-toc').hide();
+    $('.music').show();
+    $('.fav-countholder').show();
+     $('.fb5-download').show();
+      $('.civil').show();
+
+
+});
+});
+</script>
+  
+</body>
+</html>

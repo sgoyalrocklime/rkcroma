@@ -115,7 +115,7 @@ class GMWDViewFrontendMap extends GMWDViewFrontend{
                         gmwdmapData["ajaxData" + '<?php echo $shortcode_id;?>']  = {};
                         
                         var ajaxURL = "<?php echo admin_url('admin-ajax.php');?>";
-                        var	markerDefaultIcon = "<?php echo  gmwd_get_option("marker_default_icon");?>";
+                        var markerDefaultIcon = "<?php echo  gmwd_get_option("marker_default_icon");?>";
                         var GMWD_URL = "<?php echo GMWD_URL;?>";
                         jQuery( document ).ready(function() {					
                             gmwdInitMainMap("wd-map<?php echo $shortcode_id;?>",false, '<?php echo $shortcode_id;?>');

@@ -1,0 +1,894 @@
+.book_container img
+{
+height: 100%;
+width: 100%;
+}
+.civil
+{
+       position: absolute;
+    bottom: 0;
+    left: 10px;
+    z-index: 9;
+}
+
+.civil a
+{
+	text-decoration: none;
+	color: orange;
+}
+
+.civil a:hover
+{
+	text-decoration: none;
+	color: orangered;
+	font-size: 17px;
+}
+/*area.group
+{
+	outline: none;
+}*/
+
+
+/*start favoruite*/
+
+
+.list-group-item {
+ 
+    font-size: 14px;
+    padding: 4px;
+}
+
+.modal-body{ height: 500px; overflow: auto;}
+.notify{ position: absolute; margin-left: 15px; z-index: 199; height: 30px; width: 150px; padding-top: 5px;}
+.notify p{ font-size: 12px; text-align: right; line-height: 20px;}
+
+
+.pagelist p{ margin-bottom: 0; position: relative;}
+.fa-heart-o{ position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    color: #fff;
+       background: #444444;
+    padding: 6px 5px;
+    font-size: 20px;
+}
+.fa-heart-o:hover{ color: #f1103a; cursor: pointer; background: #000;}
+
+/*#favorites-hold img{
+    width: 50px;
+    margin-right: 5px;
+}
+*/
+.list-group-item {
+ 
+    font-size: 14px;
+}
+
+.modal-body{ height: 500px; overflow: auto;}
+.notify{ position: absolute; margin-left: 20px; font-size: 13px;}
+
+span.fav-countholder > .fa-heart {
+    font-size: 25px !important;
+}
+ .remove-fav
+{
+
+    margin-left: .3em;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.deg_view
+{
+        position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.normal
+{
+    position: absolute;
+    bottom: 0;
+    right: 129px;
+}
+.buton
+{
+        color: #0C2C9C;
+    font-weight: 600;
+}
+
+/*.count {
+    position: absolute;
+    left: 2px;
+    font-size: 22px;
+    color: #FF4B68;
+    top: 18px;
+    font-weight: bold;
+}*/
+.fav-countholder .fa {
+    display: inline-block;
+    font: 14px/0 FontAwesome;
+}
+        #fancybox-content { border-width:0px!important; text-align: center;}
+
+        #fancybox-outer {
+   width: 94%;
+}
+
+.fav-countholder
+{
+        cursor: pointer;
+    z-index: 99;
+    right: 371px;
+    position: absolute;
+    top: 16px;
+    background: #eee;
+    border-radius: 6px 6px;
+    width: 47px;
+    height: 47px;
+    border: 2px solid black;
+    padding: 8px 8px;
+}
+
+.fav-countholder:hover
+{
+    background: red;
+}
+/*end favoruite*/
+input.lamauto {
+    padding: 7px 5px;
+    border: 2px solid #2B4067;
+    position: absolute;
+    right: 170px;
+    top: 17px;
+    z-index: 999;
+    width: 200px;
+    font-size: 14px;
+}
+.ui-menu .ui-menu-item:hover{
+    background: #38486F !important;
+    color: #fff ;
+    border:none;
+}
+.ui-menu .ui-menu-item:hover a{
+    font-size: 13px !important;
+    color: #fff !important; 
+    
+}
+.fancybox-image {
+   /* position: absolute;
+    z-index: 99999;*/
+ /*   height: 100%;
+    width: 100%;*/
+}
+.download
+{
+    position: absolute;
+    right: 40px;
+    z-index: 99;
+    top: 0;
+}
+.home
+{
+    position: absolute;
+    z-index: 99;
+    left: 151px;
+    top: 18px;
+}
+.go_home
+{
+    height: 33px;
+    width: 33px;
+}
+#play
+{
+    height: 40px;
+    width: 40px;
+}
+#pause
+{
+    height: 40px;
+    width: 40px;
+}
+#download_img
+{
+    height: 40px;
+     width: 40px;
+}   
+/* Make it a marquee */
+.marquee {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 35s linear infinite !important;
+    position: absolute;
+    z-index: 99;
+
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+
+}
+.marquee p
+{
+color: white;
+font-weight: bold;
+font-size: 20px;
+text-shadow: 0 0 3px rgb(35, 35, 34), 0 0 5px #141414;
+}
+
+div#favorites-hold p {
+    position: relative;
+}
+
+
+
+.fancybox-inner img
+
+{
+  height: auto;
+  width: auto;
+}
+/*.wowbook-toc-item .page {
+    float: right;
+    display: none;
+}*/
+button.list-group-item {
+    width: 100%;
+    text-align: left;
+    font-size: 10px;
+    font-weight: bold;
+    /* top: 0; */
+}
+#favorites-hold img{
+    width: 50px;
+    margin-right: 5px;
+    height: 50px;
+}
+.remove-fav{
+   position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 768px){
+.fav-countholder {
+    cursor: pointer;
+    z-index: 99;
+    /* right: 371px; */
+    left: 0;
+    position: absolute;
+    top: 16px;
+    background: #eee;
+    border-radius: 6px 6px;
+    width: 47px;
+    height: 47px;
+    border: 2px solid black;
+    padding: 8px 8px;
+}
+input.lamauto {
+    padding: 7px 5px;
+    border: 2px solid #2B4067;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    z-index: 999;
+    width: 200px;
+    font-size: 14px;
+}
+.civil {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    z-index: 9;
+}
+#popup {
+    position: relative;
+    display: hidden;
+    /* top: 80px; */
+    left: 32% !important;
+    /* margin-left: -250px; */
+    /* background-color: white; */
+    z-index: 9999999999;
+    /* padding: 20px; */
+    /* border: solid 5px #333333; */
+    /* border-radius: 5px; */
+    text-align: center;
+}
+}
+@media screen and (max-width: 773px) and (max-height: 435px){
+.fav-countholder {
+    cursor: pointer;
+    z-index: 99;
+    /* right: 371px; */
+    position: absolute;
+    top: 16px;
+    background: #eee;
+    border-radius: 6px 6px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 8px 8px;
+    left: 0;
+    top: 0;
+}
+#book.wowbook {
+    margin: auto;
+    top: 18px;
+}
+input.lamauto {
+    padding: 7px 5px;
+    border: 2px solid #2B4067;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    z-index: 999;
+    width: 150px;
+    font-size: 12px;
+}
+.civil {
+    position: absolute;
+    /* bottom: 0; */
+    left: 301px;
+    z-index: 9;
+    top: 0;
+}
+
+.play {
+    position: absolute;
+    left: 50px !important;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+
+.pause {
+    position: absolute;
+    left: 50px !important;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+.fb5-download {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    right: 155px;
+    top: 0;
+    z-index: 99;
+    border-radius: 50%;
+    background: white;
+}
+.fb5-download {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    right: 160px !important;
+    top: 0 !important;
+    z-index: 99;
+    background: white;
+}
+}
+@media screen and (max-width: 768px){
+.fav-countholder {
+    cursor: pointer;
+    z-index: 99;
+    /* right: 20px; */
+    position: absolute;
+    top: 16px;
+    background: #eee;
+    border-radius: 6px 6px;
+    width: 47px;
+    height: 47px;
+    border: 2px solid black;
+    padding: 8px 8px;
+    /* bottom: 0 !important; */
+    left: 0;
+}
+input.lamauto {
+   padding: 7px 5px;
+    /* border: 2px solid #2B4067; */
+    position: absolute;
+    /* left: 0; */
+    top: 16px !important;
+    z-index: 999;
+    width: 74px !important;
+    font-size: 8px !important;
+    right: 43px !important;
+    height: 41px;
+    font-weight: bold;
+}
+.civil {
+    position: absolute;
+    bottom: 89px;
+    left: 10px;
+    z-index: 9;
+}
+
+.play {
+    position: absolute;
+    left: 53px !important;
+    z-index: 99;
+    cursor: pointer;
+    top: 16px !important;
+}
+.pause {
+    position: absolute;
+    left: 53px !important;
+    z-index: 99;
+    cursor: pointer;
+    top: 16px !important;
+}
+}
+
+@media screen and (max-width: 736px) and (max-height: 414px){
+.civil {
+    position: absolute;
+    /* bottom: 89px; */
+    left: 250px;
+    z-index: 9;
+    top: 0;
+}
+.fav-countholder {
+    cursor: pointer;
+    z-index: 99;
+    /* right: 20px; */
+    position: absolute;
+    top: 0;
+    background: #eee;
+    border-radius: 6px 6px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 8px 8px;
+    /* bottom: 0 !important; */
+    left: 0;
+    }
+    input.lamauto {
+    padding: 7px 5px;
+    /* border: 2px solid #2B4067; */
+    position: absolute;
+    /* left: 0; */
+    top: 0;
+    z-index: 999;
+    width: 150px;
+    font-size: 12px;
+    right: 20px;
+}
+#popup {
+    position: relative;
+    display: hidden;
+    /* top: 80px; */
+    left: 25% !important;
+    /* margin-left: -250px; */
+    /* background-color: white; */
+    z-index: 9999999999;
+    /* padding: 20px; */
+    /* border: solid 5px #333333; */
+    /* border-radius: 5px; */
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 731px) and (max-height: 411px){
+#book.wowbook {
+    margin: auto;
+    top: 19px;
+}
+.civil {
+    position: absolute;
+    /* bottom: 89px; */
+    left: 270px;
+    top: 0;
+    z-index: 9;
+}
+input.lamauto {
+    padding: 7px 5px;
+    /* border: 2px solid #2B4067; */
+    position: absolute;
+    /* left: 0; */
+    top: 0 !important;
+    z-index: 999;
+    width: 132px !important;
+    font-size: 10px !important;
+    right: 0 !important;
+}
+.fav-countholder {
+    cursor: pointer;
+    z-index: 99;
+    /* right: 20px; */
+    position: absolute;
+    top: 0;
+    background: #eee;
+    border-radius: 6px 6px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 8px 8px;
+    /* bottom: 0 !important; */
+    left: 0;
+}
+.play {
+    position: absolute;
+    left: 100px;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+.pause {
+    position: absolute;
+    left: 100px;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+.fb5-download {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    right: 139px !important;
+    top: 0 !important;
+    z-index: 99;
+    background: white;
+}
+}
+
+@media screen and (max-width: 640px) and (max-height: 360px){
+#book.wowbook {
+    margin: auto;
+    top: 18px;
+}
+input.lamauto {
+   padding: 7px 5px;
+    /* border: 2px solid #2B4067; */
+    position: absolute;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 999;
+    width: 119px !important;
+    font-size: 8px !important;
+    height: 33px !important;
+}
+.fav-countholder {
+    cursor: pointer;
+    z-index: 99;
+    /* right: 20px; */
+    position: absolute;
+    top: 0 !important;
+    background: #eee;
+    border-radius: 6px 6px;
+    width: 42px;
+    height: 41px;
+    border: 2px solid black;
+    padding: 8px 8px;
+    font-size: -6px;
+    /* bottom: 0 !important; */
+    left: 0;
+}
+.civil {
+    position: absolute;
+    /* bottom: 55px; */
+    /* left: 10px; */
+    z-index: 9;
+    top: 0;
+    left: 231px;
+}
+.fb5-download {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 0 !important;
+    z-index: 99;
+    background: white;
+    right: 133px !important;
+}
+.play {
+    position: absolute;
+    left: 100px;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+.pause {
+    position: absolute;
+    left: 100px;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+}
+
+@media screen and (max-width: 450px){
+.civil {
+    
+   bottom: 50px;
+    position: absolute;
+    left: 16px;
+    z-index: 9;
+}
+#book.wowbook {
+    margin: auto;
+    top: 20px;
+}
+.fav-countholder {
+    cursor: pointer;
+    z-index: 99;
+    /* right: 371px; */
+    position: absolute;
+    top: 0;
+    background: #eee;
+    border-radius: 6px 6px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    padding: 8px 8px;
+    left: 0;
+    font-size: 10px;
+}
+span.fav-countholder > .fa-heart {
+    font-size: 21px !important;
+}
+#play {
+    height: 35px;
+    width: 35px;
+}
+#pause {
+    height: 35px;
+    width: 35px;
+}
+#download_img {
+    height: 35px;
+    width: 35px;
+}
+
+
+#popup {
+    position: relative;
+    display: hidden;
+    /* top: 80px; */
+    left: -2% !important;
+    /* margin-left: -250px; */
+    /* background-color: white; */
+    z-index: 9999999999;
+    /* padding: 20px; */
+    /* border: solid 5px #333333; */
+    /* border-radius: 5px; */
+    text-align: center;
+}
+input.lamauto {
+    padding: 7px 5px;
+    border: 2px solid #2B4067;
+    position: absolute;
+    right: 20px !important;
+    top: 0 !important;
+    z-index: 99;
+    width: 130px !important;
+    font-size: 11px !important;
+    height: 39px;
+}
+#popup p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666666;
+    /* margin: 0; */
+    padding: 9px;
+    text-align: center;
+}
+.play {
+    position: absolute;
+    left: 56px !important;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+.play {
+    position: absolute;
+    left: 56px !important;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+.fb5-download {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    right: 184px !important;
+    top: 0 !important;
+    z-index: 99;
+    border-radius: 50% !important;
+    background: white;
+}
+.home {
+    position: absolute;
+    z-index: 99;
+    left: 151px;
+    top: 0 !important;
+}
+/* Make it a marquee */
+.marquee {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 10s linear infinite !important;
+    position: absolute;
+    z-index: 99;
+    top: 55px;
+
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+
+}
+.marquee p
+{
+color: white;
+font-weight: bold;
+font-size: 14px;
+
+}
+.wowbook-toc {
+    background: white;
+    display: inline-block;
+    overflow-y:auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+    width: 200px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.wowbook-toc-item a:active
+{
+/*    background: red;
+*/}
+.wowbook-toc {
+    color: white;
+    color: #b8b8b8;
+    background: #222;
+    background-image: linear-gradient(to bottom, #3c3c3c 0px, #222 100%);
+    background-repeat: repeat-x;
+    border-color: #080808;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.5);
+}
+}
+
+@media screen and (max-width: 400px){
+.civil {
+    
+    text-decoration: none;
+    bottom: 40px;
+    left: 16px;
+}
+#popup {
+    position: absolute;
+    display: hidden;
+    top: 80px;
+    left: 67% !important;
+    margin-left: -250px;
+    /* background-color: white; */
+    z-index: 99999999999;
+    /* padding: 20px; */
+    /* border: solid 5px #333333; */
+    /* border-radius: 5px; */
+}
+}
+
+@media screen and (max-width: 375px){
+.home {
+    position: absolute;
+    z-index: 99;
+    left: 105px !important;
+    top: 14px;
+}
+}
+
+
+
+@media screen and (max-width: 360px){
+.civil {
+    
+    text-decoration: none;
+    bottom: 50px;
+    left: 16px;
+}
+
+#popup {
+    position: absolute;
+    display: hidden;
+    top: 80px;
+    left: 70%;
+    margin-left: -250px;
+    /* background-color: white; */
+    z-index: 99999999999;
+    /* padding: 20px; */
+    /* border: solid 5px #333333; */
+    /* border-radius: 5px; */
+}
+.fb5-download {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+   right: 181px !important;
+    top: 0 !important;
+    z-index: 99;
+    border-radius: 50%;
+    background: white;
+}
+.play {
+    position: absolute;
+    left: 49px !important;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+.pause {
+    position: absolute;
+    left: 49px !important;
+    z-index: 99;
+    cursor: pointer;
+    top: 0 !important;
+}
+.home {
+    position: absolute;
+    z-index: 99;
+    left: 97px !important;
+}
+}
+
+
+
+
+@media screen and (max-width: 320px){
+.civil {
+    
+    text-decoration: none;
+    bottom: 40px;
+    left: 16px;
+}
+#popup {
+    position: absolute;
+    display: hidden;
+    top: 80px;
+    left: 78% !important;
+    margin-left: -250px;
+    /* background-color: white; */
+    z-index: 99999999999;
+    /* padding: 20px; */
+    /* border: solid 5px #333333; */
+    /* border-radius: 5px; */
+}
+.fb5-download {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    right: 154px !important;
+    top: 0 !important;
+    z-index: 99;
+    border-radius: 50%;
+    background: white;
+}
+.home {
+    position: absolute;
+    z-index: 99;
+    left: 93px !important;
+    top: 14px;
+}
+
+}
+
+

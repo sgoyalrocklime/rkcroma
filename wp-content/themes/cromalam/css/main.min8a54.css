@@ -211,6 +211,12 @@ p,blockquote,li {
         line-height: 28px;
         line-height: 1.75rem;
     }
+
+    .site-menu__half__contact {
+        bottom: 20px !important;
+        left:350px !important;
+        right: 0 !important;
+    }
 }
 
 p.intro,blockquote.intro,li.intro {
@@ -2994,7 +3000,8 @@ body {
 
 @media only screen and (max-width: 768px) {
     .projects-grid {
-        padding: 40px 0;
+        /*padding: 40px 0;*/
+        padding: 150px 0;
     }
 
     .projects-grid.has-logo {
@@ -3234,6 +3241,7 @@ body {
         line-height: 40px;
         line-height: 2.5rem;
         letter-spacing: 10px;
+        padding: 20px;
     }
 }
 
@@ -3322,7 +3330,8 @@ body {
 @media only screen and (max-width: 768px) {
     .projects-grid__items__item__title {
         font-size: 20px;
-        font-size: 1.25rem;
+        /*font-size: 1.25rem;*/
+        font-size: 1.5rem;
         line-height: 26px;
         line-height: 1.625rem;
     }
@@ -3908,6 +3917,17 @@ body {
 @media only screen and (max-width: 380px) {
     .news-post__wrap__content .hentry {
         padding: 20px;
+    }
+
+    .numbered-slider__slide__content {
+        width: 80%;
+        padding: 0;
+    }
+
+    .numbered-slider__slide__title {
+        top: 115px;
+        left: 0;
+        right: 42px;
     }
 }
 
@@ -7827,18 +7847,18 @@ body {
     font-style: normal;
 }
 
-@media only screen (min-width: 480px) and (max-width: 860px) {
+@media only screen and (min-width: 480px) and (max-width: 860px) {
     .site-footer__address {
-        margin-top: 42px;
+        margin-top: 42px !important;
     }
 
     .site-footer__logo{
-        width:100%;
-        background-position:center;
+        width:100% !important;
+        background-position:center !important;
     }
 
     .site-footer__columns{
-        width:100%;
+        width:100% !important;
     }
 
     .site-footer__columns__column{
@@ -7846,8 +7866,8 @@ body {
     }
 
     .site-footer__address p{
-        width: 100%;
-        text-align: center;
+        width: 100% !important;
+        text-align: center !important;
     }
 }
 
@@ -7892,4 +7912,17 @@ body {
 
 .slick {
     margin: 0;
+}
+
+@media only screen and (max-width:580px) and (min-width: 320px){
+.numbered-slider__slide__content {
+width: 80%;
+padding: 0
+}
+
+.numbered-slider__slide__title {
+top: 115px;
+left: 0;
+right: 42px;
+}
 }
